@@ -1,0 +1,500 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemon&family=Lobster+Two:ital,wght@0,400;0,700;1,700&family=Playball&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.slider {
+  width: 100%;
+  height: 100vh;
+}
+.slide img {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+.slide h4 {
+  font-family: "Playball", cursive;
+  position: fixed;
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  margin-left: 45rem;
+  padding-top: 30rem;
+  font-weight: 400;
+}
+.slide small {
+  position: fixed;
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+  margin-left: 53rem;
+  padding-top: 33rem;
+}
+.slide small::before {
+  content: "";
+  display: flex;
+  flex-direction: row;
+  width: 7rem;
+  height: 1px;
+  background: #fff;
+  position: absolute;
+  margin-left: -8rem;
+  margin-top: 0.7rem;
+}
+.slide small::after {
+  content: "";
+  display: flex;
+  flex-direction: row;
+  width: 7rem;
+  height: 1px;
+  background: #fff;
+  position: absolute;
+  margin-left: 10.5rem;
+  margin-top: -0.6rem;
+}
+.overlay {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background: #616161;
+  opacity: 0.3;
+}
+.rhino {
+  height: 1.5rem;
+  z-index: -1;
+}
+.rhino img {
+  opacity: 0.3;
+}
+
+.about {
+  background-image: url("../../images/vector.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  margin-top: rem;
+  height: 100vh;
+  width: 100%;
+}
+.about-img {
+  margin-left: 15rem;
+  margin-top: 3rem;
+  width: 40rem;
+  height: 25rem;
+  border: #b95205 2px solid;
+}
+.about-img img {
+  width: 40rem;
+  height: 25rem;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -3rem;
+}
+.content,
+h5,
+p {
+  text-align: center;
+  color: #fff;
+}
+.content p {
+  color: #fff;
+}
+
+.content h4 {
+  margin-top: 10rem;
+  color: #ea9f41;
+  font-family: "Lobster Two", cursive;
+}
+.operations {
+  background: #616161;
+  height: 60vh;
+  border: 4px dotted #b95205;
+}
+
+.opening {
+  text-align: center;
+  padding-top: 5rem;
+}
+.opening h3 {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  color: #fff;
+}
+.opening h5 {
+  font-family: "Playball", cursive;
+  color: #ea9f41;
+  font-size: 1.5rem;
+}
+.days {
+  text-align: center;
+}
+.number {
+  text-align: center;
+  transition: 400ms;
+  color: #ea9f41;
+  cursor: pointer;
+}
+
+.number:hover {
+  color: #fff;
+  transform: scale(1.2);
+}
+.monday h3 {
+  color: #b95205;
+  font-size: 1.5rem;
+}
+.monday h4 {
+  color: #fff;
+}
+.weekends h3 {
+  color: #b95205;
+  font-size: 1.5rem;
+}
+.weekends h4 {
+  color: #fff;
+}
+#Restaurant {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 60vh;
+}
+.restorans {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.restorans h5 {
+  text-align: center;
+  color: #000;
+}
+.restorans h4 {
+  text-align: center;
+  font-family: "Playball", cursive;
+  color: #ea9f41;
+  font-size: 2rem;
+  font-weight: 900;
+  padding-top: 4rem;
+}
+.restorans-img {
+  width: 10rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  border: #616161 2px;
+  padding-top: 5rem;
+  margin-left: 8rem;
+}
+.translate img {
+  width: 20rem;
+  height: 20rem;
+  background-position: center;
+  background-size: cover;
+}
+.translate {
+  width: 20rem;
+  height: 20rem;
+  overflow: hidden;
+  transition: 400ms;
+}
+.translate :hover {
+  transform: scale(1.2);
+}
+.riviera p {
+  color: #000;
+  margin-left: 30rem;
+  margin-top: -35rem;
+}
+#deals {
+  height: 100vh;
+  position: relative;
+  margin-top: 15rem;
+  height: 100vh;
+  max-width: 100%;
+  background-image: url("../../images/Free.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+#deals::after {
+  content: "";
+  width: 100%;
+  height: 10px;
+  position: absolute;
+  bottom: 100%;
+  left: 0px;
+  background: linear-gradient(-50deg, rgba(0, 0, 0, 0.7) 4px, transparent 0px),
+    linear-gradient(50deg, rgba(0, 0, 0, 0.7) 4px, transparent 0px);
+  background-size: 10px 10px;
+  background-repeat: repeat-x;
+}
+
+.explanation {
+  text-align: center;
+  padding-top: 2rem;
+}
+.explanation h3 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.explanation h5 {
+  font-family: "Playball", cursive;
+  color: #ea9f41;
+}
+
+.overlay {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background: #000;
+  opacity: 0.4;
+  z-index: -1;
+}
+.dishes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #686868;
+}
+.menu img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+}
+.menu img:hover {
+  border-radius: 30%;
+}
+
+.menu-items {
+  margin-left: 2rem;
+}
+.menu-items h4 span {
+  margin-left: 10rem;
+  color: #b95205;
+  font-family: "Playball", cursive;
+  font-size: 1.3rem;
+  border-bottom: 1px dotted #ea9f41;
+}
+.menu-items h4 {
+  border-bottom: 2px dotted #ea9f41;
+}
+
+.menu-items p {
+  margin-right: 10rem;
+  color: #fff;
+}
+.reserve {
+  text-align: center;
+  margin-top: -1rem;
+  margin-left: 1rem;
+}
+.reserve h5 {
+  text-align: center;
+  color: #ea9f41;
+  font-size: 1.5rem;
+  font-family: "Playball", cursive;
+  margin-left: 4rem;
+}
+#team {
+  height: 80vh;
+}
+#team::after {
+  content: "";
+  width: 100%;
+  height: 10px;
+  position: absolute;
+  bottom: 100%;
+  left: 0px;
+  background: linear-gradient(-50deg, rgba(0, 0, 0, 0.7) 4px, transparent 0px),
+    linear-gradient(50deg, rgba(0, 0, 0, 0.7) 4px, transparent 0px);
+  background-size: 10px 10px;
+  background-repeat: repeat-x;
+}
+.team-def2 {
+  text-align: center;
+  color: #616161;
+}
+.team-def h5,
+p {
+  color: #000;
+}
+.team-def h3 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Playball", cursive;
+}
+.team-def img {
+  margin-left: 46rem;
+  height: 15rem;
+  margin-top: -4rem;
+}
+.chefs {
+  display: flex;
+  flex-wrap: no-wrap;
+  flex-direction: row;
+  gap: 1rem;
+  width: 25rem;
+}
+.individual-chefs {
+  margin-left: 10rem;
+  width: 30rem;
+  height: 30rem;
+}
+.img-one {
+  background-position: center;
+  background-size: cover;
+}
+.individual-chef-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 400ms;
+  background-position: center;
+  background-size: cover;
+}
+.individual-chef-img img {
+  height: 10rem;
+  width: 10rem;
+  background-position: center;
+  border-radius: 50%;
+  transition: 400ms;
+}
+.individual-chef-img img:hover {
+  transform: scale(1.2);
+}
+
+.chef {
+  justify-content: center;
+  margin-left: 2rem;
+}
+.chef h3 {
+  font-family: "Playball", cursive;
+}
+.chef h4 {
+  font-size: 1rem;
+  color: #ea9f41;
+}
+#testimonials {
+  height: 100vh;
+  position: relative;
+  margin-top: -2rem;
+  height: 80vh;
+  max-width: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../../images/vector3.jpeg");
+  z-index: 10;
+}
+#testimonials::after {
+  content: "";
+  width: 100%;
+  height: 10px;
+  position: absolute;
+  bottom: 100%;
+  left: 0px;
+  background: linear-gradient(-50deg, rgba(0, 0, 0, 0.7) 4px, transparent 0px),
+    linear-gradient(50deg, rgba(0, 0, 0, 0.7) 4px, transparent 0px);
+  background-size: 10px 10px;
+  background-repeat: repeat-x;
+}
+.overlay {
+  position: absolute;
+  height: 80vh;
+  width: 100%;
+  background: #000;
+  opacity: 0.4;
+  z-index: -1;
+}
+.test-header {
+  text-align: center;
+  color: #fff;
+  padding-top: 2rem;
+}
+.test-header h3 {
+  font-size: 2rem;
+}
+.test-header h4 {
+  color: #b95205;
+  font-family: "Playball", cursive;
+}
+.icons {
+  color: #fff;
+  text-align: center;
+}
+.review-box {
+  width: 40rem;
+  height: 30rem;
+}
+.review-box-img {
+  display: flex;
+  justify-content: center;
+  background-position: centers;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.review-box-img img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+}
+.reveiw-box-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.reveiw-box-name h3 {
+  color: #fff;
+}
+.reveiw-box-name h4 {
+  color: #b95205;
+  font-family: "Playball", cursive;
+}
+
+.comment p {
+  color: #fff;
+  text-align: center;
+}
+.stars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ea9f41;
+  font-size: 1.5rem;
+}
+.quote {
+  height: 5rem;
+  width: 5rem;
+
+  color: #ea9f41;
+  background: transparent;
+  border: #b95205 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-left: 55rem;
+  margin-top: 2rem;
+  transition: 400ms;
+}
+.quote:hover {
+  background: #616161;
+}
+@media screen {
+}

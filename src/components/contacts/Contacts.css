@@ -1,0 +1,147 @@
+#contact {
+  height: 100vh;
+}
+.contact {
+  background-image: url("../../images/hello.jpeg");
+  height: 30vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+}
+.contact h3 {
+  color: #fff;
+  font-weight: 900;
+  font-size: 2rem;
+}
+.contact p {
+  color: #ff6f00;
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-family: "Playball", cursive;
+}
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+}
+.contact-info-one {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12rem;
+  justify-content: center;
+  align-items: center;
+}
+.contact-info-one h4 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.contact-info-one p {
+  display: flex;
+  justify-content: space-evenly;
+}
+.contact-info-two {
+  margin-left: 10rem;
+}
+.info-option-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+.info-option-one h3 {
+  font-size: 1.5rem;
+}
+.info-option-one p {
+  font-family: "Playball", cursive;
+  cursor: pointer;
+}
+.info-option-one p:hover {
+  color: #ff6f00;
+  text-decoration: underline;
+}
+.location {
+  height: 100vh;
+}
+.location-h3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.location-h3 h3 {
+  font-weight: 700;
+  font-family: "Playball", cursive;
+}
+.location-h3 p {
+  font-family: "Playball", cursive;
+}
+.form {
+  background-image: url("../../images/one.jpeg");
+  background-attachment: fixed;
+  background-repeat: repeat;
+}
+.form-def {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+}
+.form-def h2 {
+  color: #ff6f00;
+  font-family: "Playball", cursive;
+  font-weight: 700;
+}
+.form-def p {
+  font-weight: 400;
+  font-family: "Playball", cursive;
+  color: #f7f7f7;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  padding: 2rem;
+  margin-top: 20px;
+  gap: 1.2rem;
+}
+.btn {
+  position: relative;
+  width: 12rem;
+  height: 3rem;
+  background: #424242;
+  color: #ea9f41;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #ff6f00;
+  color: #fff;
+}
+
+input {
+  width: 27%;
+  padding: 1.5rem;
+  border-radius: 0.2rem;
+  background-color: #e0e0e0;
+  color: #070707;
+  border: 1px solid;
+}
+textarea {
+  width: 27%;
+  padding: 1.5rem;
+  border-radius: 0.2rem;
+  background-color: #f7f7f7;
+  color: #070707;
+  border: 1px solid;
+}

@@ -1,0 +1,17 @@
+#footer {
+  margin-top: 60rem;
+}
+
+.copy {
+  font-size: 1rem;
+  background: #616161;
+  color: #ea9f41;
+  height: 8vh;
+  font-family: "Playball", cursive;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.copy small {
+  margin-top: 2rem;
+}

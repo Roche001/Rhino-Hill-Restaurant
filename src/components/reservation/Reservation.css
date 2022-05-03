@@ -1,0 +1,174 @@
+.table {
+  background-image: url("../../images/rachel.jpg");
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.table h3 {
+  color: #fff;
+  font-weight: 900;
+}
+.table p {
+  color: #ea9f41;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: "Satisfy", cursive;
+}
+.reservation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.reservation h4,
+p {
+  color: #000;
+  font-weight: 700;
+}
+.picker {
+  height: 1.5rem;
+  width: 30rem;
+}
+.picker-a {
+  padding: 1rem;
+  border: 1px #111111;
+}
+.picker-a select {
+  border: #ea9f41;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  height: 5vh;
+  width: 30rem;
+  background: #d1d1d1;
+}
+
+.book-table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+}
+.book-table label {
+  display: flex;
+  justify-content: center;
+  color: #000;
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+.forms-resrve {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  gap: 1rem;
+}
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  padding-bottom: 3rem;
+}
+.contact-details label {
+  color: #000;
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+input {
+  width: 30rem;
+  height: 1.5rem;
+}
+.put {
+  padding: 1rem;
+}
+textarea {
+  width: 30rem;
+}
+.button-sm {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.btn-bg {
+  font-family: "Playball", cursive;
+  font-size: 1.2rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  position: relative;
+  width: 12rem;
+  height: 3rem;
+  background: #424242;
+  color: #ea9f41;
+  margin-top: 20px;
+  cursor: pointer;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  padding: 2rem;
+}
+
+.btn-bg:hover {
+  background: #d8972e;
+  color: #fff;
+}
+.operations {
+  background: #616161;
+  height: 60vh;
+  border: 4px dotted #b95205;
+}
+
+.opening {
+  text-align: center;
+  padding-top: 5rem;
+}
+.opening h3 {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  color: #fff;
+}
+.opening h5 {
+  font-family: "Playball", cursive;
+  color: #ea9f41;
+  font-size: 1.5rem;
+}
+.days {
+  text-align: center;
+}
+.number {
+  text-align: center;
+  transition: 400ms;
+  color: #ea9f41;
+  cursor: pointer;
+}
+
+.number:hover {
+  color: #fff;
+  transform: scale(1.2);
+}
+.monday h3 {
+  color: #b95205;
+  font-size: 1.5rem;
+}
+.monday h4 {
+  color: #fff;
+}
+.weekends h3 {
+  color: #b95205;
+  font-size: 1.5rem;
+}
+.weekends h4 {
+  color: #fff;
+}

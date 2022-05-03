@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemon&family=Lobster+Two:ital,wght@0,400;0,700;1,700&family=Playball&family=Satisfy&display=swap");
+.hot-deals {
+  background: url("../../images/concept.jpeg");
+  height: 50vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 10;
+  background-position: center;
+}
+
+.hot-deals h3 {
+  display: flex;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10rem;
+}
+.hot-deals p {
+  font-size: 1.5rem;
+  color: #ea9f41;
+  font-weight: 600;
+  font-family: "Satisfy", cursive;
+}
+.overlay-a {
+  position: absolute;
+  height: 50vh;
+  width: 100%;
+  background: #000;
+  opacity: 0.4;
+  z-index: -1;
+}
+.dessert {
+  background-image: url();
+}
+.dishes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #686868;
+  margin-left: 10rem;
+  width: 40rem;
+  margin-right: 10rem;
+  cursor: pointer;
+}
+.menu img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+}
+.menu img:hover {
+  border-radius: 30%;
+}
+
+.menu-items {
+  margin-left: 2rem;
+}
+.menu-items h4 span {
+  font-family: "Playball", cursive;
+  font-size: 1.3rem;
+  border-bottom: 1px dotted #ea9f41;
+}
+.menu-items h4 {
+  border-bottom: 2px dotted #ea9f41;
+}
+
+.menu-items-one p {
+  margin-right: 10rem;
+  color: #000;
+}
+.dessert {
+  background-image: url("../../images/Rum.jpeg");
+  height: 30rem;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  margin-top: 1rem;
+  background-size: cover;
+}
+
+.dessert-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10rem;
+}
+.dessert-one h2 {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.dessert-one p {
+  color: #ea9f41;
+  font-size: 1rem;
+  font-family: "Satisfy", cursive;
+}
+.dessert-container {
+  height: 60vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid: 1em;
+  padding: 4rem;
+}
+.dessert-container-box {
+  padding-top: 2rem;
+  height: 5rem;
+  display: flex;
+  flex-direction: row;
+  margin-left: 8rem;
+  cursor: grabbing;
+}
+.dessert-img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 400ms;
+}
+.dessert-img:hover {
+  transform: scale(1.2) rotate(50deg);
+}
+.dessert-img img {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+}
+.dessert-info {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 2rem;
+}
+.dessert-info h3 {
+  border-bottom: #000 dotted 1px;
+}
+.dessert-info h3 span {
+  margin-left: 10rem;
+  color: #ea9f41;
+  font-family: "Satisfy", cursive;
+  font-size: 1.2rem;
+}
+.wine {
+  background-image: url("../../images/wine.jpeg");
+  height: 30rem;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.wine-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10rem;
+}
+.wine-one h2 {
+  color: #fff;
+  font-weight: 900;
+}
+.wine-one p {
+  color: #b95205;
+  font-size: 1.2rem;
+  font-family: "Satisfy", cursive;
+}
+.drinks {
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 1.5rem;
+  padding: 6rem;
+}
+.drinks-container-box {
+  padding-top: 2rem;
+  height: 5rem;
+  display: flex;
+  flex-direction: row;
+  margin-left: 8rem;
+}
+.drinks-img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: 400ms;
+}
+.drinks-img img {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+}
+.drinks-img :hover {
+  border-radius: 20%;
+  transform: rotate3d(1, 2, 3, 20deg);
+}
+.drinks-info {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 2rem;
+}
+.drinks-info h3 {
+  border-bottom: #000 dotted 1px;
+}
+.drinks-info h3 span {
+  margin-left: 10rem;
+  color: #ea9f41;
+  font-family: "Satisfy", cursive;
+  font-size: 1.2rem;
+}
+@media (max-width: 600px) {
+  .dessert-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap: 4rem;
+  }
+  .dessert-container-box {
+    height: 6rem;
+    width: 5rem;
+    padding-bottom: 2rem;
+  }
+  .dessert-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    margin-top: 6rem;
+  }
+}
