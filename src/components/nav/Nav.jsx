@@ -5,7 +5,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState();
+  const [activeNav, setActiveNav] = useState("/");
   return (
     <nav className="navbar">
       <div className="logo-bg">
@@ -18,8 +18,8 @@ const Nav = () => {
       </div>
 
       <ul className="nav-items">
-        <Link to="/" className="link">
-          <li id="active">Home</li>
+        <Link to="/" className="link" id="active">
+          <li>Home</li>
         </Link>
         <Link to="/Popular" className="link">
           {" "}
