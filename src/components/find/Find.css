@@ -54,20 +54,15 @@
   justify-content: center;
   gap: 2rem;
   color: #fff;
+  padding: 2rems;
 }
 
 .face {
   transition: 400ms;
 }
 .face:hover {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 3rem;
-  width: 3rem;
-  background: #b95205;
-  border-radius: 50%;
-  transform: scale(1.5);
+  transform: scale(2);
+  color: #b95205;
 }
 .form {
   margin-top: -9rem;
