@@ -43,7 +43,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  overflow-x: hidden;
 }
 .social h3 {
   color: #ea9f41;
