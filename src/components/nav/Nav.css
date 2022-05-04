@@ -27,9 +27,9 @@
   transition: 8ms;
 }
 .link:hover {
-  background-color: #b95205;
+  /* background-color: #b95205; */
   color: #fff;
-  border-radius: 1rem;
+  /* border-radius: 1rem; */
 }
 .logo-bg {
   margin-top: -12rem;

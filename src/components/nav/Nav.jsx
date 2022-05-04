@@ -18,23 +18,53 @@ const Nav = () => {
       </div>
 
       <ul className="nav-items">
-        <Link to="/" className="link" id="active">
+        <Link
+          to="/"
+          className="link"
+          onClick={() => setActiveNav("/")}
+          id={activeNav === "/" ? "active" : ""}
+        >
           <li>Home</li>
         </Link>
-        <Link to="/Popular" className="link">
+        <Link
+          to="/Popular"
+          className="link"
+          onClick={() => setActiveNav("/Popular")}
+          id={activeNav === "/Popular" ? "active" : ""}
+        >
           {" "}
           <li>Popular</li>
         </Link>
-        <Link to="/Shop" className="link">
+        <Link
+          to="/Shop"
+          className="link"
+          onClick={() => setActiveNav("/Shop")}
+          id={activeNav === "/Shop" ? "active" : ""}
+        >
           <li>Shop</li>
         </Link>
-        <Link to="/Reservation" className="link">
+        <Link
+          to="/Reservation"
+          className="link"
+          onClick={() => setActiveNav("/Reservation")}
+          id={activeNav === "/Reservation" ? "active" : ""}
+        >
           <li>Reservation</li>
         </Link>
-        <Link to="/Account" className="link">
+        <Link
+          to="/Account"
+          className="link"
+          onClick={() => setActiveNav("/Account")}
+          id={activeNav === "/Account" ? "active" : ""}
+        >
           <li>Account</li>
         </Link>
-        <Link to="/Contacts" className="link">
+        <Link
+          to="/Contacts"
+          className="link"
+          onClick={() => setActiveNav("/Contacts")}
+          id={activeNav === "/Contacts" ? "active" : ""}
+        >
           <li>Contacts</li>
         </Link>
       </ul>
