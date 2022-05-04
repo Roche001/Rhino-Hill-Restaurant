@@ -1,9 +1,11 @@
 import React from "react";
 import "./Nav.css";
+import { useState } from "react";
 
 import { Link } from "react-router-dom";
 
 const Nav = () => {
+  const [activeNav, setActiveNav] = useState();
   return (
     <nav className="navbar">
       <div className="logo-bg">
@@ -17,7 +19,7 @@ const Nav = () => {
 
       <ul className="nav-items">
         <Link to="/" className="link">
-          <li className="Active">Home</li>
+          <li id="active">Home</li>
         </Link>
         <Link to="/Popular" className="link">
           {" "}
