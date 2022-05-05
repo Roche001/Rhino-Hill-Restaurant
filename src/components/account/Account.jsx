@@ -136,7 +136,7 @@ const Account = () => {
                   </button>
                 </div>
                 <p className="text-center">
-                  Have an account? <a href="#">Log In</a>{" "}
+                  Have an account? <a href="#account">Log In</a>{" "}
                 </p>
               </form>
             </div>
