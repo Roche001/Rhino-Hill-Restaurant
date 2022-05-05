@@ -5,9 +5,9 @@ import { motion } from "framer-motion";
 const Popular = () => {
   return (
     <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
+      initial={{ scaleY: 0 }}
+      animate={{ scaleY: 1 }}
+      exit={{ scaleY: 0 }}
     >
       <section id="Popular">
         <div className="hot-deals">

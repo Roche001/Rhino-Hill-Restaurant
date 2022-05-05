@@ -18,12 +18,11 @@ import Reservation from "./components/reservation/Reservation";
 import Shop from "./components/shop/Shop";
 import Find from "./components/find/Find";
 const App = () => {
-  const location = useLocation();
   return (
     <Router>
       <Nav />
       <AnimatePresence>
-        <Routes key={location.pathname} location={location}>
+        <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/Popular" exact element={<Popular />} />
           <Route path="/Reservation" exact element={<Reservation />} />
