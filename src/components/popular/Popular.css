@@ -142,6 +142,9 @@
 .dessert-info h3 {
   border-bottom: #000 dotted 1px;
 }
+.dessert-info p {
+  color: #686868;
+}
 .dessert-info h3 span {
   margin-left: 10rem;
   color: #ea9f41;
@@ -211,6 +214,9 @@
 }
 .drinks-info h3 {
   border-bottom: #000 dotted 1px;
+}
+.drinks-info p {
+  color: #686868;
 }
 .drinks-info h3 span {
   margin-left: 10rem;

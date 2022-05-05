@@ -170,6 +170,9 @@ p {
   flex-direction: column;
   justify-content: center;
 }
+.restorans p {
+  color: #616161;
+}
 .restorans h5 {
   text-align: center;
   color: #000;
