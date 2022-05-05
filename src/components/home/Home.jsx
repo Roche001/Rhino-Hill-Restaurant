@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "./Home.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
