@@ -32,7 +32,7 @@ const Shop = () => {
               <GrStar />
             </div>
             <div className="shop-button">
-              <a href="#" className="shop-btn">
+              <a href="#button" className="shop-btn">
                 {" "}
                 <span>$10.05</span>
               </a>
@@ -53,7 +53,7 @@ const Shop = () => {
               <GrStar />
             </div>
             <div className="shop-button">
-              <a href="#" className="shop-btn">
+              <a href="#button" className="shop-btn">
                 {" "}
                 <span>$3.15</span>
               </a>
@@ -74,7 +74,7 @@ const Shop = () => {
               <GrStar />
             </div>
             <div className="shop-button">
-              <a href="#" className="shop-btn">
+              <a href="#button" className="shop-btn">
                 {" "}
                 <span>$5.00</span>
               </a>
@@ -95,7 +95,7 @@ const Shop = () => {
               <GrStar />
             </div>
             <div className="shop-button">
-              <a href="#" className="shop-btn">
+              <a href="#button" className="shop-btn">
                 {" "}
                 <span>$10.50</span>
               </a>
@@ -116,7 +116,7 @@ const Shop = () => {
               <GrStar />
             </div>
             <div className="shop-button">
-              <a href="#" className="shop-btn">
+              <a href="#button" className="shop-btn">
                 {" "}
                 <span>$14.25</span>
               </a>
@@ -137,7 +137,7 @@ const Shop = () => {
               <GrStar />
             </div>
             <div className="shop-button">
-              <a href="#" className="shop-btn">
+              <a href="#button" className="shop-btn">
                 {" "}
                 <span>$4.15</span>
               </a>
@@ -158,7 +158,7 @@ const Shop = () => {
               <GrStar />
             </div>
             <div className="shop-button">
-              <a href="#" className="shop-btn">
+              <a href="#button" className="shop-btn">
                 {" "}
                 <span>$15.00</span>
               </a>
@@ -179,7 +179,7 @@ const Shop = () => {
               <GrStar />
             </div>
             <div className="shop-button">
-              <a href="#" className="shop-btn">
+              <a href="#button" className="shop-btn">
                 {" "}
                 <span>$20.00</span>
               </a>
@@ -200,7 +200,7 @@ const Shop = () => {
               <GrStar />
             </div>
             <div className="shop-button">
-              <a href="#" className="shop-btn">
+              <a href="#button" className="shop-btn">
                 {" "}
                 <span>$15.00</span>
               </a>
@@ -221,7 +221,7 @@ const Shop = () => {
               <GrStar />
             </div>
             <div className="shop-button">
-              <a href="#" className="shop-btn">
+              <a href="#button" className="shop-btn">
                 {" "}
                 <span>$11.00</span>
               </a>
@@ -242,7 +242,7 @@ const Shop = () => {
               <GrStar />
             </div>
             <div className="shop-button">
-              <a href="#" className="shop-btn">
+              <a href="#button" className="shop-btn">
                 {" "}
                 <span>$20.00</span>
               </a>
@@ -263,7 +263,7 @@ const Shop = () => {
               <GrStar />
             </div>
             <div className="shop-button">
-              <a href="#" className="shop-btn">
+              <a href="#button" className="shop-btn">
                 {" "}
                 <span>$20.00</span>
               </a>
@@ -284,7 +284,7 @@ const Shop = () => {
               <GrStar />
             </div>
             <div className="shop-button">
-              <a href="#" className="shop-btn">
+              <a href="#button" className="shop-btn">
                 {" "}
                 <span>$15</span>
               </a>
@@ -305,7 +305,7 @@ const Shop = () => {
               <GrStar />
             </div>
             <div className="shop-button">
-              <a href="#" className="shop-btn">
+              <a href="#button" className="shop-btn">
                 {" "}
                 <span>$15</span>
               </a>
@@ -326,7 +326,7 @@ const Shop = () => {
               <GrStar />
             </div>
             <div className="shop-button">
-              <a href="#" className="shop-btn">
+              <a href="#button" className="shop-btn">
                 {" "}
                 <span>$15.25</span>
               </a>
@@ -347,7 +347,7 @@ const Shop = () => {
               <GrStar />
             </div>
             <div className="shop-button">
-              <a href="#" className="shop-btn">
+              <a href="#button" className="shop-btn">
                 {" "}
                 <span>$10.50</span>
               </a>
@@ -368,7 +368,7 @@ const Shop = () => {
               <GrStar />
             </div>
             <div className="shop-button">
-              <a href="#" className="shop-btn">
+              <a href="#button" className="shop-btn">
                 {" "}
                 <span>$20.25</span>
               </a>
@@ -389,7 +389,7 @@ const Shop = () => {
               <GrStar />
             </div>
             <div className="shop-button">
-              <a href="#" className="shop-btn">
+              <a href="#button" className="shop-btn">
                 {" "}
                 <span>$3.25</span>
               </a>
@@ -410,7 +410,7 @@ const Shop = () => {
               <GrStar />
             </div>
             <div className="shop-button">
-              <a href="#" className="shop-btn">
+              <a href="#button" className="shop-btn">
                 {" "}
                 <span>$8.50</span>
               </a>
@@ -431,7 +431,7 @@ const Shop = () => {
               <GrStar />
             </div>
             <div className="shop-button">
-              <a href="#" className="shop-btn">
+              <a href="#button" className="shop-btn">
                 {" "}
                 <span>$5.50</span>
               </a>
@@ -439,7 +439,7 @@ const Shop = () => {
           </div>
         </div>
         <div className="btn-b">
-          <a href="#" className="btn-a">
+          <a href="#button" className="btn-a">
             Browse More Products
           </a>
         </div>
