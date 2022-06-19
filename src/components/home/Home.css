@@ -191,8 +191,7 @@ p {
   grid-template-columns: 1fr 1fr;
   gap: 0.5rem;
   border: #616161 2px;
-  padding-top: 5rem;
-  margin-left: 8rem;
+  padding: 2rem;
 }
 .translate img {
   width: 20rem;
