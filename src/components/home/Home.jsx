@@ -22,7 +22,7 @@ const Home = () => {
       exit={{ opacity: 0 }}
       transition={400}
     >
-      <section id="Home">
+      <section id="Home" className="container-fluid">
         <Swiper
           spaceBetween={30}
           centeredSlides={true}
