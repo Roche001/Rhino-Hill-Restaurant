@@ -82,7 +82,7 @@ const Home = () => {
           </div>
         </section>
         <section id="Restaurant row">
-          <div className="restorans-img">
+          <div className="restorans-img  col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <div className="translate">
               {" "}
               <img src="./assets/rest1.jpg" alt="r" />
@@ -101,7 +101,7 @@ const Home = () => {
               <img src="./assets/rest4.jpg" alt="r" />
             </div>
           </div>
-          <div className="restorans">
+          <div className="restorans  col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <h4>Our Restorāns</h4>
             <h5>The Rhino Hill Restaurant </h5>{" "}
             <p>
