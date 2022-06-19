@@ -81,7 +81,7 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <section id="Restaurant">
+        <section id="Restaurant row">
           <div className="restorans-img">
             <div className="translate">
               {" "}
