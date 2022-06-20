@@ -20,11 +20,12 @@ const Nav = () => {
             <span className="icon-bar"></span>
             <span className="icon-bar"></span>
           </button>
+          <a className="navbar-brand" href="#">
+            <img src="./assets/Logo1.png" alt="Logo" />
+          </a>
         </div>
         <div className="logo-bg">
-          <div className="logo">
-            <img src="./assets/Logo1.png" alt="Logo" />
-          </div>
+          <div className="logo"></div>
           <div className="logo-def">
             <h4> Rhino Hill Restaurant</h4>
           </div>
