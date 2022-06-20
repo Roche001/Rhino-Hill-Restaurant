@@ -7,10 +7,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 const Top = () => {
   const [activeNav, setActiveNav] = useState("/");
   return (
-    <Navbar
-      className="navbar navbar-default navbar-fixed-top"
-      role="navigation"
-    >
+    <Navbar collapseOnSelect expand="lg" bg="#f57f1" variant="dark">
       <Container>
         <Navbar.Brand href="#Home">
           <div className="img">
