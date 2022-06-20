@@ -12,7 +12,7 @@ const Top = () => {
       role="navigation"
     >
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="#Home">
           <div className="img">
             <img className="image" src="./assets/Logo1.png" alt="Logo" />
             <div className="image-h4">
@@ -20,60 +20,62 @@ const Top = () => {
             </div>
           </div>
         </Navbar.Brand>
-
-        <div id="navbar-collapse-main" className="collapse navbar-collapse">
-          <ul className="nav navbar-nav navbar-right">
-            <Link
-              to="/"
-              className="link"
-              onClick={() => setActiveNav("/")}
-              id={activeNav === "/" ? "active" : ""}
-            >
-              <li>Home</li>
-            </Link>
-            <Link
-              to="/Popular"
-              className="link"
-              onClick={() => setActiveNav("/Popular")}
-              id={activeNav === "/Popular" ? "active" : ""}
-            >
-              {" "}
-              <li>Popular</li>
-            </Link>
-            <Link
-              to="/Shop"
-              className="link"
-              onClick={() => setActiveNav("/Shop")}
-              id={activeNav === "/Shop" ? "active" : ""}
-            >
-              <li>Shop</li>
-            </Link>
-            <Link
-              to="/Reservation"
-              className="link"
-              onClick={() => setActiveNav("/Reservation")}
-              id={activeNav === "/Reservation" ? "active" : ""}
-            >
-              <li>Reservation</li>
-            </Link>
-            <Link
-              to="/Account"
-              className="link"
-              onClick={() => setActiveNav("/Account")}
-              id={activeNav === "/Account" ? "active" : ""}
-            >
-              <li>Account</li>
-            </Link>
-            <Link
-              to="/Contacts"
-              className="link"
-              onClick={() => setActiveNav("/Contacts")}
-              id={activeNav === "/Contacts" ? "active" : ""}
-            >
-              <li>Contacts</li>
-            </Link>
-          </ul>
-        </div>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <div id="navbar-collapse-main" className="collapse navbar-collapse">
+            <ul className="nav navbar-nav navbar-right">
+              <Link
+                to="/"
+                className="link"
+                onClick={() => setActiveNav("/")}
+                id={activeNav === "/" ? "active" : ""}
+              >
+                <li>Home</li>
+              </Link>
+              <Link
+                to="/Popular"
+                className="link"
+                onClick={() => setActiveNav("/Popular")}
+                id={activeNav === "/Popular" ? "active" : ""}
+              >
+                {" "}
+                <li>Popular</li>
+              </Link>
+              <Link
+                to="/Shop"
+                className="link"
+                onClick={() => setActiveNav("/Shop")}
+                id={activeNav === "/Shop" ? "active" : ""}
+              >
+                <li>Shop</li>
+              </Link>
+              <Link
+                to="/Reservation"
+                className="link"
+                onClick={() => setActiveNav("/Reservation")}
+                id={activeNav === "/Reservation" ? "active" : ""}
+              >
+                <li>Reservation</li>
+              </Link>
+              <Link
+                to="/Account"
+                className="link"
+                onClick={() => setActiveNav("/Account")}
+                id={activeNav === "/Account" ? "active" : ""}
+              >
+                <li>Account</li>
+              </Link>
+              <Link
+                to="/Contacts"
+                className="link"
+                onClick={() => setActiveNav("/Contacts")}
+                id={activeNav === "/Contacts" ? "active" : ""}
+              >
+                <li>Contacts</li>
+              </Link>
+            </ul>
+          </div>
+        </Navbar.Collapse>
       </Container>
     </Navbar>
   );
