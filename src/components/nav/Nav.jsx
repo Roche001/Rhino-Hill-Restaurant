@@ -9,6 +9,20 @@ const Nav = () => {
   return (
     <nav className="navbar navbar-default navbar-fixed-top" role="navigation">
       <div className="container-fluid">
+        <div className="navbar-header">
+          <button
+            type="button"
+            className="navbar-toggle"
+            data-toggle="collapse"
+            data
+            target="#navbar-collapse-main"
+          >
+            <span className="sr-only">Toggle Navigation</span>
+            <span className="icon-bar"></span>
+            <span className="icon-bar"></span>
+            <span className="icon-bar"></span>
+          </button>
+        </div>
         <div className="logo-bg">
           <div className="logo">
             <img src="./assets/Logo1.png" alt="Logo" />
