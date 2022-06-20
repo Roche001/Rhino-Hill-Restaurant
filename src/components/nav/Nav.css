@@ -1,4 +1,4 @@
-.navbar {
+/* .navbar {
   position: fixed;
   width: 100%;
   top: 0;
@@ -27,9 +27,7 @@
   transition: 8ms;
 }
 .link:hover {
-  /* background-color: #b95205; */
   color: #fff;
-  /* border-radius: 1rem; */
 }
 .logo-bg {
   margin-top: -12rem;
@@ -64,4 +62,4 @@
   background: #b95205;
   color: #fff;
   border-radius: 0.5rem;
-}
+} */

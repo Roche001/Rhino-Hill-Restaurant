@@ -14,10 +14,8 @@ const Nav = () => {
             type="button"
             className="navbar-toggle"
             data-toggle="collapse"
-            data
-            target="#navbar-collapse-main"
+            data-target="#navbar-collapse-main"
           >
-            <span className="sr-only">Toggle Navigation</span>
             <span className="icon-bar"></span>
             <span className="icon-bar"></span>
             <span className="icon-bar"></span>
