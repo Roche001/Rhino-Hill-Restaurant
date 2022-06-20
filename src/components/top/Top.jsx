@@ -21,20 +21,6 @@ const Top = () => {
           </div>
         </Navbar.Brand>
 
-        <div className="navbar-header">
-          <button
-            type="button"
-            className="navbar-toggle"
-            data-toggle="collapse"
-            data-target="#navbar-collapse-main"
-          >
-            <span className="icon-bar"></span>
-            <span className="icon-bar"></span>
-            <span className="icon-bar"></span>
-          </button>
-          <a className="navbar-brand" href="#"></a>
-        </div>
-
         <div id="navbar-collapse-main" className="collapse navbar-collapse">
           <ul className="nav navbar-nav navbar-right">
             <Link
