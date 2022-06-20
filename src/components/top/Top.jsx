@@ -11,7 +11,9 @@ const Top = () => {
       <Container>
         <Navbar.Brand href="#Home">
           <div className="img">
-            <img className="image" src="./assets/Logo1.png" alt="Logo" />
+            <div className="image">
+              <img src="./assets/Logo1.png" alt="Logo" />
+            </div>
             <div className="image-h4">
               <h4> Rhino Hill Restaurant</h4>
             </div>

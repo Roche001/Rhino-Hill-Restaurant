@@ -28,6 +28,9 @@
 .image-h4 h4 {
   margin-top: -14rem;
 }
+.image img {
+  margin-top: -5rem;
+}
 .link {
   text-decoration: none;
   color: #020c1b;
