@@ -7,7 +7,7 @@ import Account from "./components/account/Account";
 import Contacts from "./components/contacts/Contacts";
 import Footer from "./components/footer/Footer";
 import Home from "./components/home/Home";
-import Nav from "./components/nav/Nav";
+import Top from "./components/top/Top";
 import Popular from "./components/popular/Popular";
 import Reservation from "./components/reservation/Reservation";
 import Shop from "./components/shop/Shop";
@@ -15,7 +15,7 @@ import Find from "./components/find/Find";
 const App = () => {
   return (
     <Router>
-      <Nav />
+      <Top />
       <AnimatePresence>
         <Routes>
           <Route path="/" exact element={<Home />} />
