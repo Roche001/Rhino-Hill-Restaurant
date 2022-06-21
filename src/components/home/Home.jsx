@@ -27,7 +27,7 @@ const Home = () => {
           id="carouselExampleIndicators"
           className="carousel slide carousel-fade"
           data-ride="carousel"
-          data-interval="5000"
+          data-interval="1000"
         >
           <ol class="carousel-indicators">
             <li
@@ -38,7 +38,7 @@ const Home = () => {
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
           </ol>
-          <div classNames="carousel-inner">
+          <div className="carousel-inner">
             <div className="carousel-item active">
               <img
                 className="d-block w-100"
