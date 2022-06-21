@@ -24,54 +24,61 @@ const Home = () => {
     >
       <section id="Home" className="container-fluid">
         <div
-          id="carouselExampleFade"
-          className="carousel slide carousel-fade carousel-fade "
-          data-bs-ride="carousel"
+          id="carouselExampleIndicators"
+          class="carousel slide carousel-fade"
+          data-ride="carousel"
+          data-interval="5000"
         >
-          <div className="carousel-inner">
-            <div className="carousel-item active" data-bs-interval="2000">
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleIndicators"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
               <img
-                className="d-block w-100 img-responsive"
-                src="./assets/slider1.jpg"
-                alt="s"
+                class="d-block w-100"
+                src="//via.placeholder.com/1200x400/cc09f0"
+                alt="First slide"
               />
             </div>
-            <div className="carousel-item" data-bs-interval="2000">
+            <div class="carousel-item">
               <img
-                className="d-block w-100 img-responsive"
-                src="./assets/slider2.jpg"
-                alt="s"
+                class="d-block w-100"
+                src="//via.placeholder.com/1200x400/5609f0"
+                alt="Second slide"
               />
             </div>
-            <div className="carousel-item" data-bs-interval="2000">
+            <div class="carousel-item">
               <img
-                className="d-block w-100 img-responsive"
-                src="./assets/slider3.jpg"
-                alt="s"
+                class="d-block w-100"
+                src="//via.placeholder.com/1200x400/cc54f0"
+                alt="Third slide"
               />
             </div>
           </div>
-          <button
-            className="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleFade"
-            data-bs-slide="prev"
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="prev"
           >
-            <span
-              className="carousel-control-prev-icon"
-              aria-hidden="true"
-            ></span>
-            <span className="visually-hidden">Previous</span>
-          </button>
-          <button
-            className="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleFade"
-            data-bs-slide="next"
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="next"
           >
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
 
         <section id="about">
