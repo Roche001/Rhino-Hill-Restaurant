@@ -6,15 +6,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-
   background: #f57f17;
-}
-.nav-items {
-  position: fixed;
-  display: flex;
-  justify-content: space-between;
-  margin-left: 70rem;
-  margin-top: 2rem;
 }
 
 .img {
@@ -22,7 +14,6 @@
 .link {
   text-decoration: none;
   color: #020c1b;
-  padding: 1rem;
   transition: 8ms;
 }
 .link:hover {
