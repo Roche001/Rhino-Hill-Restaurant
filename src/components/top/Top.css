@@ -8,8 +8,18 @@
   justify-content: space-between;
   background: #f57f17;
 }
-
 .img {
+  padding: 1rem;
+  margin-left: -15rem;
+  margin-top: -3rem;
+}
+.img img {
+  width: 12rem;
+  margin-left: -2rem;
+}
+.img h4 {
+  font-size: 1rem;
+  margin-top: -5rem;
 }
 .link {
   text-decoration: none;
