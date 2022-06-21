@@ -23,39 +23,48 @@ const Home = () => {
       transition={400}
     >
       <section id="Home" className="container-fluid">
-        <Swiper
-          spaceBetween={30}
-          centeredSlides={true}
-          autoplay={{
-            delay: 2500,
-            disableOnInteraction: false,
-          }}
-          pagination={{
-            clickable: true,
-          }}
-          navigation={true}
-          modules={[Autoplay, Pagination, Navigation]}
-          className="slider"
+        <div
+          id="carouselExampleFade"
+          className="carousel slide carousel-fade"
+          data-bs-ride="carousel"
         >
-          <SwiperSlide className="slide">
-            <div className="overlay"></div>
-            <h4>Welcome to Rhino Hill Café</h4>
-            <small>Food Made with Love</small>
-            <img src="./assets/slider1.jpg" alt="s" />
-          </SwiperSlide>
-          <SwiperSlide className="slide">
-            <div className="overlay"></div>
-            <h4>Welcome to Rhino Hill Café</h4>
-            <small>Food Made with Love</small>
-            <img src="./assets/slider2.jpg" alt="s" />
-          </SwiperSlide>
-          <SwiperSlide className="slide">
-            <div className="overlay"></div>
-            <h4>Welcome to Rhino Hill Café</h4>
-            <small>Food Made with Love</small>
-            <img src="./assets/slider3.jpg" alt="s" />
-          </SwiperSlide>
-        </Swiper>
+          <div className="carousel-inner">
+            <div className="carousel-item active" data-bs-interval="2000">
+              <img
+                className="d-block w-100"
+                src="./assets/slider1.jpg"
+                alt="s"
+              />
+            </div>
+            <div className="carousel-item" data-bs-interval="2000">
+              <img src="./assets/slider2.jpg" alt="s" />
+            </div>
+            <div className="carousel-item" data-bs-interval="2000">
+              <img src="./assets/slider3.jpg" alt="s" />
+            </div>
+          </div>
+          <button
+            className="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="prev"
+          >
+            <span
+              className="carousel-control-prev-icon"
+              aria-hidden="true"
+            ></span>
+            <span className="visually-hidden">Previous</span>
+          </button>
+          <button
+            className="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
 
         <section id="about">
           <div className="operations">

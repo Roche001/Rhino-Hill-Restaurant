@@ -159,7 +159,7 @@ const Popular = () => {
             </div>
           </div>
         </div>
-        <div className="wine">
+        <div className="wine" id="wine">
           <div className="wine-one">
             <h2>DRINKS</h2>
             <p>Drinks are just the beginning. You should see our bartenders.</p>
