@@ -20,7 +20,9 @@
   font-size: 1rem;
   margin-top: -5rem;
 }
-
+.nav-items {
+  position: right;
+}
 .link {
   text-decoration: none;
   color: #020c1b;
