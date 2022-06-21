@@ -10,7 +10,6 @@
 }
 .img {
   padding: 1rem;
-  margin-left: -15rem;
   margin-top: -3rem;
 }
 .img img {
@@ -21,6 +20,7 @@
   font-size: 1rem;
   margin-top: -5rem;
 }
+
 .link {
   text-decoration: none;
   color: #020c1b;
