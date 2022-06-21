@@ -25,27 +25,27 @@ const Home = () => {
       <section id="Home" className="container-fluid">
         <div
           id="carouselExampleFade"
-          className="carousel slide carousel-fade"
+          className="carousel slide carousel-fade carousel-fade "
           data-bs-ride="carousel"
         >
           <div className="carousel-inner">
             <div className="carousel-item active" data-bs-interval="2000">
               <img
-                className="d-block w-100"
+                className="d-block w-100 img-responsive"
                 src="./assets/slider1.jpg"
                 alt="s"
               />
             </div>
             <div className="carousel-item" data-bs-interval="2000">
               <img
-                className="d-block w-100"
+                className="d-block w-100 img-responsive"
                 src="./assets/slider2.jpg"
                 alt="s"
               />
             </div>
             <div className="carousel-item" data-bs-interval="2000">
               <img
-                className="d-block w-100"
+                className="d-block w-100 img-responsive"
                 src="./assets/slider3.jpg"
                 alt="s"
               />
