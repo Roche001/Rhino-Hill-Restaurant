@@ -37,10 +37,18 @@ const Home = () => {
               />
             </div>
             <div className="carousel-item" data-bs-interval="2000">
-              <img src="./assets/slider2.jpg" alt="s" />
+              <img
+                className="d-block w-100"
+                src="./assets/slider2.jpg"
+                alt="s"
+              />
             </div>
             <div className="carousel-item" data-bs-interval="2000">
-              <img src="./assets/slider3.jpg" alt="s" />
+              <img
+                className="d-block w-100"
+                src="./assets/slider3.jpg"
+                alt="s"
+              />
             </div>
           </div>
           <button
