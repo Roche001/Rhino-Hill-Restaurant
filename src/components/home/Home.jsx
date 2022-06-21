@@ -25,7 +25,7 @@ const Home = () => {
       <section id="Home" className="container-fluid">
         <div
           id="carouselExampleIndicators"
-          class="carousel slide carousel-fade"
+          className="carousel slide carousel-fade"
           data-ride="carousel"
           data-interval="5000"
         >
@@ -33,51 +33,57 @@ const Home = () => {
             <li
               data-target="#carouselExampleIndicators"
               data-slide-to="0"
-              class="active"
+              className="active"
             ></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
           </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
+          <div classNames="carousel-inner">
+            <div className="carousel-item active">
               <img
-                class="d-block w-100"
+                className="d-block w-100"
                 src="//via.placeholder.com/1200x400/cc09f0"
                 alt="First slide"
               />
             </div>
-            <div class="carousel-item">
+            <div className="carousel-item">
               <img
-                class="d-block w-100"
+                className="d-block w-100"
                 src="//via.placeholder.com/1200x400/5609f0"
                 alt="Second slide"
               />
             </div>
-            <div class="carousel-item">
+            <div className="carousel-item">
               <img
-                class="d-block w-100"
+                className="d-block w-100"
                 src="//via.placeholder.com/1200x400/cc54f0"
                 alt="Third slide"
               />
             </div>
           </div>
           <a
-            class="carousel-control-prev"
+            classNames="carousel-control-prev"
             href="#carouselExampleIndicators"
             role="button"
             data-slide="prev"
           >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
+            <span
+              className="carousel-control-prev-icon"
+              aria-hidden="true"
+            ></span>
+            <span className="sr-only">Previous</span>
           </a>
           <a
-            class="carousel-control-next"
+            className="carousel-control-next"
             href="#carouselExampleIndicators"
             role="button"
             data-slide="next"
           >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
+            <span
+              className="carousel-control-next-icon"
+              aria-hidden="true"
+            ></span>
+            <span className="sr-only">Next</span>
           </a>
         </div>
 
