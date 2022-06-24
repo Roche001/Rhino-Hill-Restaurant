@@ -163,13 +163,8 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 3rem;
 }
 .translate img {
-  width: 20rem;
-  height: 20rem;
-  background-position: center;
-  background-size: cover;
 }
 .translate {
   transition: 400ms;
