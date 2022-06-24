@@ -163,11 +163,14 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 2rem;
 }
 .translate img {
+  width: 30rem;
 }
 .translate {
   transition: 400ms;
+  padding: 0.5rem;
 }
 .translate :hover {
   transform: scale(1.2);
