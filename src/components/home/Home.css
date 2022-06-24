@@ -161,9 +161,8 @@ p {
 }
 .restorans-img {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  margin-top: 2rem;
 }
 .translate img {
 }
