@@ -91,26 +91,26 @@ const Home = () => {
       </section>
       <section id="Restaurant" className="container-fluid">
         <div className="restorans-img row">
-          <div className="translate col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 ">
+          <div className="translate col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
             {" "}
             <img className="d-block w-100" src="./assets/rest1.jpg" alt="r" />
             rhino-hill
           </div>
-          <div className="translate col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+          <div className="translate col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
             {" "}
             <img className="d-block w-100" src="./assets/rest2.jpg" alt="r" />
           </div>
-          <div className="translate col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+          <div className="translate col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
             {" "}
             <img className="d-block w-100" src="./assets/rest3.jpg" alt="r" />
           </div>
-          <div className="translate col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+          <div className="translate col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
             {" "}
             <img className="d-block w-100" src="./assets/rest4.jpg" alt="r" />
           </div>
         </div>
       </section>
-      <div className="restorans ">
+      <div className="restorans row ">
         <h4>Our Restorāns</h4>
         <h5>The Rhino Hill Restaurant </h5>{" "}
         <p>
