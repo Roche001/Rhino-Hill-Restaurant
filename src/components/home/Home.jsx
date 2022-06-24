@@ -4,7 +4,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { motion } from "framer-motion";
 import { Autoplay, Pagination, Navigation } from "swiper";
 import { CgArrowsHAlt } from "react-icons/cg";
 import { GrStar } from "react-icons/gr";
@@ -17,6 +16,48 @@ import "swiper/css/pagination";
 const Home = () => {
   return (
     <section id="Home" className="container-fluid">
+      <div
+        id="carousel"
+        class="carousel slide carousel-fade"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li data-target="#carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel" data-slide-to="1"></li>
+          <li data-target="#carousel" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+          <div className="carousel-item active">
+            <img
+              className="d-block w-100"
+              src="./assets/slider1.jpg"
+              alt="First slide"
+            />
+          </div>
+          <div className="carousel-item">
+            <img
+              className="d-block w-100"
+              src="./assets/slider2.jpg"
+              alt="Second slide"
+            />
+          </div>
+          <div className="carousel-item">
+            <img
+              className="d-block w-100"
+              src="./assets/slider3.jpg"
+              alt="Third slide"
+            />
+          </div>
+        </div>
+        <a class="carousel-control left" href="#carousel" data-slide="prev">
+          &lsaquo;
+        </a>
+        <a class="carousel-control right" href="#carousel" data-slide="next">
+          &rsaquo;
+        </a>
+      </div>
+
       <section id="about">
         <div className="operations">
           <div className="opening">
