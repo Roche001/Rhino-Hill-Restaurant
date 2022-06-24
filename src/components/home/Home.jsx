@@ -104,28 +104,30 @@ const Home = () => {
             <img className="d-block w-100" src="./assets/rest4.jpg" alt="r" />
           </div>
         </div>
+        <div className="restorans row ">
+          <h4>Our Restorāns</h4>
+          <h5>The Rhino Hill Restaurant </h5>
+          <p>
+            The Rhino Hill Restaurant has been built in the best traditions of
+            Mediterranean cuisine, bringing a sunny atmosphere to the with light
+            and calm colors, stone mosaic walls, southern ornaments and fresh
+            design elements. The restaurant’s menu combines Italian, Spanish,
+            French and Greek cuisine, complemented by a specially designed
+            Mediterranean wine list. The menu is designed by Jānis Sokolovskis,
+            the restaurant's chef and co-owner, winner of several international
+            culinary competitions. According to him, it combines the best
+            products in a way that is understandable to the gourmets of our
+            region, with the characteristic, familiar taste of the Riviera. The
+            restaurant serves a combination of the best products from today and
+            the world, which reveals the restaurant's usual as well as new
+            nuances of taste. The extensive wine list, with more than 450 items,
+            is created by the well-known sommelier and restaurant co-owner
+            Eduards Jakuševskis and combines wines from several countries and
+            regions.{" "}
+          </p>
+        </div>
       </section>
-      <div className="restorans row ">
-        <h4>Our Restorāns</h4>
-        <h5>The Rhino Hill Restaurant </h5>
-        <p>
-          The Rhino Hill Restaurant has been built in the best traditions of
-          Mediterranean cuisine, bringing a sunny atmosphere to the with light
-          and calm colors, stone mosaic walls, southern ornaments and fresh
-          design elements. The restaurant’s menu combines Italian, Spanish,
-          French and Greek cuisine, complemented by a specially designed
-          Mediterranean wine list. The menu is designed by Jānis Sokolovskis,
-          the restaurant's chef and co-owner, winner of several international
-          culinary competitions. According to him, it combines the best products
-          in a way that is understandable to the gourmets of our region, with
-          the characteristic, familiar taste of the Riviera. The restaurant
-          serves a combination of the best products from today and the world,
-          which reveals the restaurant's usual as well as new nuances of taste.
-          The extensive wine list, with more than 450 items, is created by the
-          well-known sommelier and restaurant co-owner Eduards Jakuševskis and
-          combines wines from several countries and regions.{" "}
-        </p>
-      </div>
+
       <section id="deals">
         <div className="overlay"></div>
         <div className="weekly-deals">

@@ -135,9 +135,6 @@ p {
   color: #fff;
 }
 #Restaurant {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  height: 60vh;
 }
 .restorans {
   display: flex;
@@ -157,7 +154,6 @@ p {
   color: #ea9f41;
   font-size: 2rem;
   font-weight: 900;
-  padding-top: 4rem;
 }
 .restorans-img {
   display: flex;
