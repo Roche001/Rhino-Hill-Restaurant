@@ -92,26 +92,22 @@ const Home = () => {
       <section id="Restaurant" className="container-fluid">
         <div className="restorans-img row">
           <div className="translate col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
-            {" "}
             <img className="d-block w-100" src="./assets/rest1.jpg" alt="r" />
           </div>
           <div className="translate col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
-            {" "}
             <img className="d-block w-100" src="./assets/rest2.jpg" alt="r" />
           </div>
           <div className="translate col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
-            {" "}
             <img className="d-block w-100" src="./assets/rest3.jpg" alt="r" />
           </div>
           <div className="translate col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
-            {" "}
             <img className="d-block w-100" src="./assets/rest4.jpg" alt="r" />
           </div>
         </div>
       </section>
       <div className="restorans row ">
         <h4>Our Restorāns</h4>
-        <h5>The Rhino Hill Restaurant </h5>{" "}
+        <h5>The Rhino Hill Restaurant </h5>
         <p>
           The Rhino Hill Restaurant has been built in the best traditions of
           Mediterranean cuisine, bringing a sunny atmosphere to the with light

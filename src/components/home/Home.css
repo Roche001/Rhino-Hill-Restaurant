@@ -161,12 +161,11 @@ p {
 }
 .restorans-img {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   margin-top: 2rem;
 }
 .translate img {
-  width: 30rem;
 }
 .translate {
   transition: 400ms;
