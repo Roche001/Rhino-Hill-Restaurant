@@ -172,9 +172,6 @@ p {
   background-size: cover;
 }
 .translate {
-  width: 20rem;
-  height: 20rem;
-
   transition: 400ms;
 }
 .translate :hover {
