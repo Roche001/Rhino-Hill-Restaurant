@@ -17,16 +17,10 @@ const Home = () => {
   return (
     <section id="Home" className="container-fluid">
       <div
-        id="carousel"
+        id="carouselExampleFade"
         class="carousel slide carousel-fade"
         data-ride="carousel"
       >
-        <ol class="carousel-indicators">
-          <li data-target="#carousel" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel" data-slide-to="1"></li>
-          <li data-target="#carousel" data-slide-to="2"></li>
-        </ol>
-
         <div class="carousel-inner">
           <div className="carousel-item active">
             <img
@@ -42,6 +36,7 @@ const Home = () => {
               alt="Second slide"
             />
           </div>
+
           <div className="carousel-item">
             <img
               className="d-block w-100"
@@ -50,12 +45,24 @@ const Home = () => {
             />
           </div>
         </div>
-        <a class="carousel-control left" href="#carousel" data-slide="prev">
-          &lsaquo;
-        </a>
-        <a class="carousel-control right" href="#carousel" data-slide="next">
-          &rsaquo;
-        </a>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-target="#carouselExampleFade"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-target="#carouselExampleFade"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
       </div>
 
       <section id="about">
@@ -304,7 +311,7 @@ const Home = () => {
             </div>
             <div className="comment">
               <p>
-                De verdad... ¿qué hay de lo que no te guste Rhino Hill <br />
+                De verdad... ¿qué hay de lo que no te guste Rhino Hill
                 Restaurant? El servicio es excelente, el ambiente es insuperable{" "}
                 <br />y la comida es absolutamente increíble. Nunca decepciones
                 en ningún momento. de dia o de noche!
@@ -328,10 +335,10 @@ const Home = () => {
             </div>
             <div className="comment">
               <p>
-                Thank you Again @ Rhino Hill Restaurant team for outdoing <br />
+                Thank you Again @ Rhino Hill Restaurant team for outdoing
                 yourselves yet again.We really enjoyed the breakfast buffet as{" "}
-                requested last week . Great organisation <br /> and keen service
-                . My team and I say thank you. We will be back again and again.
+                requested last week . Great organisation and keen service . My
+                team and I say thank you. We will be back again and again.
               </p>
             </div>
             <div className="stars">
@@ -358,15 +365,10 @@ const Home = () => {
             <div className="comment">
               <p>
                 Food is delicious we were fortunate enough to visit Nairobi and{" "}
-                <br />
                 found this hotel to be the best by far.. our server Euphema is{" "}
-                <br />
                 courteous, efficient and helpful lady .Good food selection and{" "}
-                <br />
                 sparkling wine also we will be back again we going to recommend{" "}
-                <br />
                 her again..we had the pleasure of dealing with her service was{" "}
-                <br />
                 above special "shout out" to Valeria.
               </p>
             </div>
@@ -389,10 +391,9 @@ const Home = () => {
             <div className="comment">
               <p>
                 The restaurant has a way of Making Guests come back for more, My
-                Family felt wanted here, <br /> From how our Reservation was
-                taken to how the service was delivered its always amazing - the
+                Family felt wanted here, From how our Reservation was taken to
+                how the service was delivered its always amazing - the
                 consistency on food and service delivery is to die for- Moseti{" "}
-                <br />
                 and Maurice have the best service there can be
               </p>
             </div>
