@@ -94,7 +94,6 @@ const Home = () => {
           <div className="translate col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
             {" "}
             <img className="d-block w-100" src="./assets/rest1.jpg" alt="r" />
-            rhino-hill
           </div>
           <div className="translate col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
             {" "}
