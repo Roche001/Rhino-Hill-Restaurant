@@ -160,12 +160,10 @@ p {
   padding-top: 4rem;
 }
 .restorans-img {
-  width: 10rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.5rem;
-  border: #616161 2px;
-  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
 }
 .translate img {
   width: 20rem;
@@ -176,7 +174,7 @@ p {
 .translate {
   width: 20rem;
   height: 20rem;
-  overflow: hidden;
+
   transition: 400ms;
 }
 .translate :hover {
@@ -471,6 +469,4 @@ p {
 }
 .quote:hover {
   background: #616161;
-}
-@media screen {
 }
