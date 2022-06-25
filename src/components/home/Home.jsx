@@ -288,10 +288,12 @@ const Home = () => {
             </div>
             <div className="comment">
               <p>
-                Thank you Again @ Rhino Hill Restaurant team for outdoing
-                yourselves yet again.We really enjoyed the breakfast buffet as{" "}
-                requested last week . Great organisation and keen service . My
-                team and I say thank you. We will be back again and again.
+                Thank you Again @ Rhino Hill Restaurant team for outdoing <br />
+                yourselves yet again.We really enjoyed the breakfast buffet as
+                <br />
+                requested last week . Great organisation and keen service .{" "}
+                <br />
+                My team and I say thank you. We will be back again and again.
               </p>
             </div>
             <div className="stars">
@@ -318,10 +320,15 @@ const Home = () => {
             <div className="comment">
               <p>
                 Food is delicious we were fortunate enough to visit Nairobi and{" "}
+                <br />
                 found this hotel to be the best by far.. our server Euphema is{" "}
+                <br />
                 courteous, efficient and helpful lady .Good food selection and{" "}
+                <br />
                 sparkling wine also we will be back again we going to recommend{" "}
+                <br />
                 her again..we had the pleasure of dealing with her service was{" "}
+                <br />
                 above special "shout out" to Valeria.
               </p>
             </div>
@@ -343,10 +350,13 @@ const Home = () => {
             </div>
             <div className="comment">
               <p>
-                The restaurant has a way of Making Guests come back for more, My
-                Family felt wanted here, From how our Reservation was taken to
-                how the service was delivered its always amazing - the
+                The restaurant has a way of Making Guests come back for more,{" "}
+                <br />
+                My Family felt wanted here, From how our Reservation was taken{" "}
+                <br />
+                to how the service was delivered its always amazing - the <br />
                 consistency on food and service delivery is to die for- Moseti{" "}
+                <br />
                 and Maurice have the best service there can be
               </p>
             </div>
