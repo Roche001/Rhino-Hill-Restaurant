@@ -301,7 +301,8 @@ p {
   margin-top: -4rem;
 }
 .chefs {
-  padding: 2rem;
+  padding-bottom: 2rem;
+  margin-top: -6rem;
 }
 /* .individual-chefs {
   width: 30rem;
