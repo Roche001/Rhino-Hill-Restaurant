@@ -4,7 +4,6 @@ import { FaTwitter } from "react-icons/fa";
 import { SiFacebook } from "react-icons/si";
 import { BsInstagram } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
-import { GiRhinocerosHorn } from "react-icons/gi";
 
 const Find = () => {
   return (
@@ -57,10 +56,10 @@ const Find = () => {
       </div>
       <div className="last row">
         <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
-          <h4>+8(876)09876543</h4> <GiRhinocerosHorn />
+          <h4>+8(876)09876543</h4>
         </div>
         <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
-          <h4> 27th Westlands, Nairobi, NRB 100198</h4> <GiRhinocerosHorn />
+          <h4> 27th Westlands, Nairobi, NRB 100198</h4>
         </div>
         <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
           <h4>Rhinohillrestaurant@rhino.com</h4>
