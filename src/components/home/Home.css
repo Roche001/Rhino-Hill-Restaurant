@@ -134,8 +134,7 @@ p {
 .weekends h4 {
   color: #fff;
 }
-#Restaurant {
-}
+
 .restorans {
   display: flex;
   flex-direction: column;
@@ -216,8 +215,7 @@ p {
   opacity: 0.4;
   z-index: -1;
 }
-.dishes {
-}
+
 .menu {
   display: flex;
   flex-direction: row;
@@ -234,9 +232,6 @@ p {
   border-radius: 30%;
 }
 
-.menu-items {
-  /* margin-left: 2rem; */
-}
 .menu-items h4 span {
   /* margin-left: 10rem; */
   color: #b95205;
