@@ -8,9 +8,9 @@ import { GiRhinocerosHorn } from "react-icons/gi";
 
 const Find = () => {
   return (
-    <section id="about-us">
-      <div className="hill-one">
-        <div className="tweet">
+    <section id="about-us" className="container-fluid">
+      <div className="hill-one row">
+        <div className="tweet col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
           <h3>OUR TWITTER</h3>
           <p>
             Went for dinner with a few friends a couple of weeks ago.
@@ -22,7 +22,7 @@ const Find = () => {
             <FaTwitter />
           </div>
         </div>
-        <div className="social">
+        <div className="social col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
           <h3>Find Us</h3>
           <div className="social-a">
             <div className="face">
@@ -43,7 +43,7 @@ const Find = () => {
             </div>
           </div>
         </div>
-        <div className="form">
+        <div className="form col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
           <h3>News Letter</h3>
           <form action="">
             <input
