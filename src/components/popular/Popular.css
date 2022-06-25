@@ -41,8 +41,8 @@
 }
 
 .menu img {
-  width: 5rem;
-  height: 5rem;
+  width: 8rem;
+  height: 8rem;
   border-radius: 50%;
 }
 .menu img:hover {
@@ -50,7 +50,6 @@
 }
 
 .menu-items {
-  margin-left: 2rem;
 }
 .menu-items h4 span {
   font-family: "Playball", cursive;
