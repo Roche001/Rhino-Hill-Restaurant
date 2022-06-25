@@ -434,8 +434,6 @@ p {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  margin-left: 55rem;
-  margin-top: 2rem;
   transition: 400ms;
 }
 .quote:hover {

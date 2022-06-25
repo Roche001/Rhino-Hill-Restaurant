@@ -369,7 +369,7 @@ const Home = () => {
             </div>
           </SwiperSlide>
         </Swiper>
-        <div className="quote">
+        <div className="quote row text-center">
           <FaQuoteLeft />
         </div>
       </section>
