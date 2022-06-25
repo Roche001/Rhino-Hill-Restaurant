@@ -55,7 +55,7 @@ const Find = () => {
           </form>
         </div>
       </div>
-      <div className="last">
+      <div className="last ">
         <h4>+8(876)09876543</h4> <GiRhinocerosHorn />
         <h4> 27th Westlands, Nairobi, NRB 100198</h4> <GiRhinocerosHorn />
         <h4>Rhinohillrestaurant@rhino.com</h4>
