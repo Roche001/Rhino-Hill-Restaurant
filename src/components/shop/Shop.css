@@ -23,7 +23,6 @@
   font-weight: 800;
 }
 .shop {
-  padding: 2rem;
 }
 .shop-items {
   display: flex;
@@ -97,20 +96,4 @@
 .btn-a:hover {
   background: #d8972e;
   color: #fff;
-}
-@media screen and (max-width: 600px) {
-  .shop {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    width: 100%;
-  }
-}
-@media screen and (max-width: 1200px) {
-  .shop {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    width: 100%;
-  }
 }
