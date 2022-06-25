@@ -171,7 +171,6 @@ p {
 #deals {
   height: 100vh;
   position: relative;
-  height: 100vh;
   max-width: 100%;
   background-image: url("../../images/Free.jpeg");
   background-size: cover;
@@ -195,7 +194,6 @@ p {
 
 .explanation {
   text-align: center;
-  padding-top: 2rem;
 }
 .explanation h3 {
   color: #fff;
