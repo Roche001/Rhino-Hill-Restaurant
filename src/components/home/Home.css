@@ -216,13 +216,6 @@ p {
   z-index: -1;
 }
 
-.menu {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-
-  border-bottom: 1px solid #686868;
-}
 .menu img {
   width: 10rem;
   height: 10rem;
@@ -233,7 +226,7 @@ p {
 }
 
 .menu-items h4 span {
-  /* margin-left: 10rem; */
+  margin-left: 10rem;
   color: #b95205;
   font-family: "Playball", cursive;
   font-size: 1.3rem;

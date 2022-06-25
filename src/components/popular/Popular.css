@@ -39,18 +39,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 0.5rem;
 }
-.menu {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  border-bottom: 1px solid #686868;
-  margin-left: 10rem;
-  width: 40rem;
-  margin-right: 10rem;
-  cursor: pointer;
-}
+
 .menu img {
   width: 10rem;
   height: 10rem;
