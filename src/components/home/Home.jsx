@@ -202,7 +202,7 @@ const Home = () => {
           <h5>Online Reservation </h5>
         </div>
       </section>
-      <section id="team">
+      <section id="team container-fluid">
         <div className="team-def">
           <h3>Our Team</h3>
           <h5>Global-Class Professional Service</h5>
@@ -210,8 +210,8 @@ const Home = () => {
           <img src="./assets/Logo1.png" alt="l" />
         </div>
 
-        <div className="chefs">
-          <div className="individual-chefs">
+        <div className="chefs row">
+          <div className="individual-chefs  col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
             <div className="individual-chef-img">
               <img src="./assets/jiko1.jpeg" alt="chef" />
             </div>
@@ -221,7 +221,7 @@ const Home = () => {
               <h4>Master Chef in Tulum</h4>
             </div>
           </div>
-          <div className="individual-chefs">
+          <div className="individual-chefs  col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
             <div className="individual-chef-img">
               <img src="./assets/jiko2.jpeg" alt="chef" />
             </div>
@@ -231,18 +231,8 @@ const Home = () => {
               <h4>Master Chef in Cairo</h4>
             </div>
           </div>
-          <div className="individual-chefs">
-            <div className="individual-chef-img">
-              {" "}
-              <img src="./assets/jiko3.jpeg" alt="chef" />
-            </div>
 
-            <div className="chef">
-              <h3>Nic Scobey</h3>
-              <h4>Master Chef in Marrakesh</h4>
-            </div>
-          </div>
-          <div className="individual-chefs">
+          <div className="individual-chefs  col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
             <div className="individual-chef-img">
               {" "}
               <img src="./assets/jiko4.jpeg" alt="chef" />
@@ -253,7 +243,7 @@ const Home = () => {
               <h4>Master Chef in Los Angeles</h4>
             </div>
           </div>
-          <div className="individual-chefs">
+          <div className="individual-chefs  col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
             <div className="individual-chef-img">
               <img src="./assets/jiko5.jpeg" alt="chef" />
             </div>

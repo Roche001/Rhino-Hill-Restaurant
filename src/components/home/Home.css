@@ -238,10 +238,10 @@ p {
 }
 
 .menu-items {
-  margin-left: 2rem;
+  /* margin-left: 2rem; */
 }
 .menu-items h4 span {
-  margin-left: 10rem;
+  /* margin-left: 10rem; */
   color: #b95205;
   font-family: "Playball", cursive;
   font-size: 1.3rem;
@@ -252,7 +252,7 @@ p {
 }
 
 .menu-items p {
-  margin-right: 10rem;
+  /* margin-right: 10rem; */
   color: #fff;
 }
 .reserve {
@@ -301,14 +301,13 @@ p {
   margin-top: -4rem;
 }
 .chefs {
-  display: flex;
+  /* display: flex;
   flex-wrap: no-wrap;
   flex-direction: row;
   gap: 1rem;
-  width: 25rem;
+  width: 25rem; */
 }
 .individual-chefs {
-  margin-left: 10rem;
   width: 30rem;
   height: 30rem;
 }
@@ -338,7 +337,7 @@ p {
 
 .chef {
   justify-content: center;
-  margin-left: 2rem;
+  margin-left: 10rem;
 }
 .chef h3 {
   font-family: "Playball", cursive;
