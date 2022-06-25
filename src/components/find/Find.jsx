@@ -54,17 +54,6 @@ const Find = () => {
           </form>
         </div>
       </div>
-      {/* <div className="last row">
-        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
-          <h4>+8(876)09876543</h4>
-        </div>
-        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
-          <h4> 27th Westlands, Nairobi, NRB 100198</h4>
-        </div>
-        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
-          <h4>Rhinohillrestaurant@rhino.com</h4>
-        </div>
-      </div> */}
     </section>
   );
 };
