@@ -184,7 +184,6 @@ const Home = () => {
           <h3>Our Team</h3>
           <h5>Global-Class Professional Service</h5>
           <p>“The Standard of Excellence for Chefs.”</p>
-          <img src="./assets/Logo1.png" alt="l" />
         </div>
 
         <div className="chefs row">

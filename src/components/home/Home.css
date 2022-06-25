@@ -174,7 +174,6 @@ p {
 #deals {
   height: 100vh;
   position: relative;
-
   height: 100vh;
   max-width: 100%;
   background-image: url("../../images/Free.jpeg");
@@ -261,6 +260,7 @@ p {
   align-items: center;
   justify-content: center;
   text-align: center;
+  position: relative;
 }
 .reserve h5 {
   text-align: center;
@@ -297,14 +297,9 @@ p {
   font-size: 2rem;
   font-family: "Playball", cursive;
 }
-.team-def img {
-  margin-left: 46rem;
-  height: 15rem;
-  margin-top: -4rem;
-}
+
 .chefs {
   padding-bottom: 2rem;
-  margin-top: -6rem;
 }
 /* .individual-chefs {
   width: 30rem;
