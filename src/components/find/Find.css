@@ -1,6 +1,6 @@
 #about-us {
   background: #424242;
-  height: 50vh;
+  height: 80vh;
   margin-bottom: -60rem;
 }
 
@@ -13,6 +13,7 @@
   padding-top: 8rem;
 }
 .tweet {
+  margin-top: -2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
