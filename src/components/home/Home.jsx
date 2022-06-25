@@ -147,7 +147,7 @@ const Home = () => {
             </div>
           </div>
           <div className="menu col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-            <img src="./assets/menu1.jpg" alt="m" />
+            <img src="./assets/menu2.jpg" alt="m" />
             <div className="menu-items">
               <h4>
                 Garlic Shrimp Pasta <span>$20.5</span>
