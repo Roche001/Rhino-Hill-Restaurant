@@ -128,15 +128,15 @@ const Home = () => {
         </div>
       </section>
 
-      <section id="deals">
+      <section id="deals" className="container-fluid">
         <div className="overlay"></div>
-        <div className="weekly-deals">
+        <div className="weekly-deals row text-center">
           <div className="explanation">
             <h3>WEEKLY DEALS</h3>
             <h5>Our Weekly Deals</h5>
           </div>
         </div>
-        <div className="dishes">
+        <div className="dishes ">
           <div className="menu">
             <img src="./assets/menu1.jpg" alt="m" />
             <div className="menu-items">
