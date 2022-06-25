@@ -1,6 +1,6 @@
 #about-us {
   background: #424242;
-  height: 90vh;
+  height: 60vh;
   margin-bottom: -60rem;
 }
 
@@ -80,12 +80,7 @@
   border-radius: 0.2rem;
 }
 .last {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding-top: 4rem;
-  gap: 0.5rem;
+  margin-top: 4rem;
 }
 .last h4 {
   color: #fff;
