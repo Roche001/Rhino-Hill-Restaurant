@@ -79,18 +79,3 @@
   height: 3rem;
   border-radius: 0.2rem;
 }
-.last {
-  margin-top: 4rem;
-}
-.last h4 {
-  color: #fff;
-  font-size: 1rem;
-  font-weight: 600;
-  transition: 400ms;
-  cursor: progress;
-}
-.last h4:hover {
-  color: #b95205;
-  transform: scaleX(1.2);
-  text-decoration: underline;
-}
