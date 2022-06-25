@@ -137,7 +137,7 @@ const Home = () => {
           </div>
         </div>
         <div className="dishes row ">
-          <div className="menu ">
+          <div className="menu col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
             <img src="./assets/menu1.jpg" alt="m" />
             <div className="menu-items">
               <h4>
@@ -146,7 +146,7 @@ const Home = () => {
               <p>Want a super satisfying, quick and easy dinner.</p>
             </div>
           </div>
-          <div className="menu ">
+          <div className="menu col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
             <img src="./assets/menu1.jpg" alt="m" />
             <div className="menu-items">
               <h4>
@@ -156,7 +156,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="menu ">
+          <div className="menu col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
             <img src="./assets/menu3.jpg" alt="m" />
             <div className="menu-items">
               <h4>
@@ -165,7 +165,7 @@ const Home = () => {
               <p>Want a super satisfying, quick and easy dinner.</p>
             </div>
           </div>
-          <div className="menu ">
+          <div className="menu col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
             <img src="./assets/menu4.jpg" alt="m" />
             <div className="menu-items">
               <h4>
