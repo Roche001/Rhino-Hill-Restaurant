@@ -175,7 +175,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="reserve">
+        <div className="reserve row text-center">
           <h5>Online Reservation </h5>
         </div>
       </section>
