@@ -435,6 +435,7 @@ p {
   align-items: center;
   border-radius: 50%;
   transition: 400ms;
+  margin-left: 10rem;
 }
 .quote:hover {
   background: #616161;
