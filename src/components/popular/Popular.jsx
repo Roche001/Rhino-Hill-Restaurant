@@ -17,7 +17,7 @@ const Popular = () => {
             <p>You can help beat hunger!</p>
           </div>
         </div>
-        <div className="dessert-container">
+        <div className="dessert-container row">
           <div className="dessert-container-box">
             <div className="dessert-img">
               <img src="./assets/meal1.png" alt="m" />
