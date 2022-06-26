@@ -33,7 +33,7 @@ p {
 }
 .picker {
   height: 1.5rem;
-  width: 30rem;
+  width: 20rem;
 }
 .picker-a {
   padding: 1rem;
@@ -46,7 +46,7 @@ p {
   align-items: center;
   justify-items: center;
   height: 5vh;
-  width: 30rem;
+  width: 20rem;
   background: #d1d1d1;
 }
 
@@ -85,14 +85,14 @@ p {
   font-size: 1.2rem;
 }
 input {
-  width: 30rem;
+  width: 20rem;
   height: 1.5rem;
 }
 .put {
   padding: 1rem;
 }
 textarea {
-  width: 30rem;
+  width: 20rem;
 }
 .button-sm {
   padding: 2rem;
