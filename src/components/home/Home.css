@@ -340,7 +340,7 @@ p {
 }
 .overlay {
   position: absolute;
-  height: 50%;
+  height: 80%;
   width: 100%;
   background: #000;
   opacity: 0.4;
