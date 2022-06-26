@@ -66,10 +66,10 @@
   background-image: url("../../images/Rum.jpeg");
   height: 30rem;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-position: center;
   margin-top: 1rem;
   background-size: cover;
+  margin-top: 1rem;
 }
 
 .dessert-one {
@@ -90,7 +90,6 @@
   font-family: "Satisfy", cursive;
 }
 .dessert-container {
-  height: 80vh;
   margin-top: 5rem;
 }
 .dessert-container-box {
