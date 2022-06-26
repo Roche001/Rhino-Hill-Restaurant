@@ -178,92 +178,100 @@ const Popular = () => {
           </div>
         </div>
         <div className="drinks">
-          <div className="drinks-container-box">
-            <div className="drinks-img">
-              <img src="./assets/drink3.jpeg" alt="ds" />
+          <div className="row">
+            <div className="drinks-container-box">
+              <div className="drinks-img">
+                <img src="./assets/drink3.jpeg" alt="ds" />
+              </div>
+              <div className="drinks-info">
+                <h3>
+                  Mulled Wine <span>$20.00</span>
+                </h3>
+                <p>Little Smokies Wrapped in Bacon with brown sugar</p>
+              </div>
             </div>
-            <div className="drinks-info">
-              <h3>
-                Mulled Wine <span>$20.00</span>
-              </h3>
-              <p>Little Smokies Wrapped in Bacon with brown sugar</p>
-            </div>
-          </div>
-          <div className="drinks-container-box">
-            <div className="drinks-img">
-              <img src="./assets/drink2.jpeg" alt="ds" />
-            </div>
-            <div className="drinks-info">
-              <h3>
-                Marple cocktail<span>$20.00</span>
-              </h3>
-              <p>Keep the cold out this fall</p>
-            </div>
-          </div>
-          <div className="drinks-container-box">
-            <div className="drinks-img">
-              <img src="./assets/drink1.jpeg" alt="ds" />
-            </div>
-            <div className="drinks-info">
-              <h3>
-                Honey Bourbon <span>$15.00</span>
-              </h3>
-              <p>Simply mixe everthing together</p>
+            <div className="drinks-container-box">
+              <div className="drinks-img">
+                <img src="./assets/drink2.jpeg" alt="ds" />
+              </div>
+              <div className="drinks-info">
+                <h3>
+                  Marple cocktail<span>$20.00</span>
+                </h3>
+                <p>Keep the cold out this fall</p>
+              </div>
             </div>
           </div>
-          <div className="drinks-container-box">
-            <div className="drinks-img">
-              <img src="./assets/drink6.jpeg" alt="ds" />
+          <div className="row">
+            <div className="drinks-container-box">
+              <div className="drinks-img">
+                <img src="./assets/drink1.jpeg" alt="ds" />
+              </div>
+              <div className="drinks-info">
+                <h3>
+                  Honey Bourbon <span>$15.00</span>
+                </h3>
+                <p>Simply mixe everthing together</p>
+              </div>
             </div>
-            <div className="drinks-info">
-              <h3>
-                Mulled Wine <span>$20.00</span>
-              </h3>
-              <p>Ooooh! this looks amazing</p>
-            </div>
-          </div>
-          <div className="drinks-container-box">
-            <div className="drinks-img">
-              <img src="./assets/drink5.jpeg" alt="ds" />
-            </div>
-            <div className="drinks-info">
-              <h3>
-                Orange Mojito<span>$20.00</span>
-              </h3>
-              <p>Quick,beautiful and tastes delicious</p>
-            </div>
-          </div>
-          <div className="drinks-container-box">
-            <div className="drinks-img">
-              <img src="./assets/drink4.jpeg" alt="ds" />
-            </div>
-            <div className="drinks-info">
-              <h3>
-                Watermelon juice <span>$11.00</span>
-              </h3>
-              <p>Quick drink looks refreshing</p>
+            <div className="drinks-container-box">
+              <div className="drinks-img">
+                <img src="./assets/drink6.jpeg" alt="ds" />
+              </div>
+              <div className="drinks-info">
+                <h3>
+                  Mulled Wine <span>$20.00</span>
+                </h3>
+                <p>Ooooh! this looks amazing</p>
+              </div>
             </div>
           </div>
-          <div className="drinks-container-box">
-            <div className="drinks-img">
-              <img src="./assets/drink8.jpeg" alt="ds" />
+          <div className="row">
+            <div className="drinks-container-box">
+              <div className="drinks-img">
+                <img src="./assets/drink5.jpeg" alt="ds" />
+              </div>
+              <div className="drinks-info">
+                <h3>
+                  Orange Mojito<span>$20.00</span>
+                </h3>
+                <p>Quick,beautiful and tastes delicious</p>
+              </div>
             </div>
-            <div className="drinks-info">
-              <h3>
-                Strawberry Colada<span>$20.00</span>
-              </h3>
-              <p>Smoothie-Cooking Classy</p>
+            <div className="drinks-container-box">
+              <div className="drinks-img">
+                <img src="./assets/drink4.jpeg" alt="ds" />
+              </div>
+              <div className="drinks-info">
+                <h3>
+                  Watermelon juice <span>$11.00</span>
+                </h3>
+                <p>Quick drink looks refreshing</p>
+              </div>
             </div>
           </div>
-          <div className="drinks-container-box">
-            <div className="drinks-img">
-              <img src="./assets/drink7.jpeg" alt="ds" />
+          <div className="row">
+            <div className="drinks-container-box">
+              <div className="drinks-img">
+                <img src="./assets/drink8.jpeg" alt="ds" />
+              </div>
+              <div className="drinks-info">
+                <h3>
+                  Strawberry Colada<span>$20.00</span>
+                </h3>
+                <p>Smoothie-Cooking Classy</p>
+              </div>
             </div>
-            <div className="drinks-info">
-              <h3>
-                Cream Shake <span>$20.00</span>
-              </h3>
-              <p>Low calorie high protein ice cream</p>
+            <div className="drinks-container-box">
+              <div className="drinks-img">
+                <img src="./assets/drink7.jpeg" alt="ds" />
+              </div>
+              <div className="drinks-info">
+                <h3>
+                  Cream Shake <span>$20.00</span>
+                </h3>
+                <p>Low calorie high protein ice cream</p>
+              </div>
             </div>
           </div>
         </div>
