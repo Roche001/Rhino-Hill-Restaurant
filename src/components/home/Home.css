@@ -406,7 +406,6 @@ p {
 .quote {
   height: 5rem;
   width: 5rem;
-
   color: #ea9f41;
   background: transparent;
   border: #b95205 1px solid;
@@ -415,7 +414,6 @@ p {
   align-items: center;
   border-radius: 50%;
   transition: 400ms;
-  margin-left: 10rem;
 }
 .quote:hover {
   background: #616161;
