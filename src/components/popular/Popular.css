@@ -159,7 +159,7 @@
 .drinks {
 }
 .drinks-container-box {
-  height: 5rem;
+  margin-top: 1rem;
   display: flex;
   flex-direction: row;
 }
