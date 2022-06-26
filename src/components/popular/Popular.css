@@ -134,7 +134,7 @@
 }
 .wine {
   background-image: url("../../images/wine.jpeg");
-  height: 30rem;
+  height: 15rem;
   width: 100%;
   background-size: cover;
   background-attachment: fixed;
@@ -157,18 +157,12 @@
   font-family: "Satisfy", cursive;
 }
 .drinks {
-  height: 80vh;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding-bottom: 1.5rem;
-  padding: 6rem;
 }
 .drinks-container-box {
-  padding-top: 2rem;
   height: 5rem;
+  margin: 2rem;
   display: flex;
   flex-direction: row;
-  margin-left: 8rem;
 }
 .drinks-img {
   background-position: center;
