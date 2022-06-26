@@ -169,7 +169,6 @@ p {
   color: #000;
 }
 #deals {
-  height: 100vh;
   position: relative;
   max-width: 100%;
   background-image: url("../../images/Free.jpeg");
