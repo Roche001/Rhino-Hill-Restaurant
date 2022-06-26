@@ -171,8 +171,8 @@
   transition: 400ms;
 }
 .drinks-img img {
-  height: 5rem;
-  width: 5rem;
+  height: 7rem;
+  width: 7rem;
   border-radius: 50%;
 }
 .drinks-img :hover {
