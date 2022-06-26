@@ -317,10 +317,8 @@ p {
   color: #ea9f41;
 }
 #testimonials {
-  height: 100vh;
   position: relative;
   margin-top: -2rem;
-  height: 80vh;
   max-width: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
