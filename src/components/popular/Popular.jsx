@@ -196,7 +196,7 @@ const Popular = () => {
               </div>
               <div className="drinks-info">
                 <h3>
-                  Marple cocktail<span>$20.00</span>
+                  Apple cocktail<span>$20.00</span>
                 </h3>
                 <p>Keep the cold out this fall</p>
               </div>
@@ -244,7 +244,7 @@ const Popular = () => {
               </div>
               <div className="drinks-info">
                 <h3>
-                  Watermelon juice <span>$11.00</span>
+                  Melon juice <span>$11.00</span>
                 </h3>
                 <p>Quick drink looks refreshing</p>
               </div>
@@ -257,7 +257,7 @@ const Popular = () => {
               </div>
               <div className="drinks-info">
                 <h3>
-                  Strawberry Colada<span>$20.00</span>
+                  Berry Colada<span>$20.00</span>
                 </h3>
                 <p>Smoothie-Cooking Classy</p>
               </div>
