@@ -17,71 +17,77 @@ const Popular = () => {
             <p>You can help beat hunger!</p>
           </div>
         </div>
-        <div className="dessert-container row">
-          <div className="dessert-container-box">
-            <div className="dessert-img">
-              <img src="./assets/meal1.png" alt="m" />
+        <div className="dessert-container">
+          <div className="row">
+            <div className="dessert-container-box">
+              <div className="dessert-img">
+                <img src="./assets/meal1.png" alt="m" />
+              </div>
+              <div className="dessert-info">
+                <h3>
+                  Garlic Butter Steak <span>$12.25</span>
+                </h3>
+                <p>Want a super satisfying, quick and easy dinner.</p>
+              </div>
             </div>
-            <div className="dessert-info">
-              <h3>
-                Garlic Butter Steak <span>$12.25</span>
-              </h3>
-              <p>Want a super satisfying, quick and easy dinner.</p>
-            </div>
-          </div>
-          <div className="dessert-container-box">
-            <div className="dessert-img">
-              <img src="./assets/meal2.jpeg" alt="m" />
-            </div>
-            <div className="dessert-info">
-              <h3>
-                Mein Noodles <span>$20.25</span>
-              </h3>
-              <p>Want a super satisfying, quick and easy dinner.</p>
-            </div>
-          </div>
-          <div className="dessert-container-box">
-            <div className="dessert-img">
-              <img src="./assets/meal3.jpeg" alt="m" />
-            </div>
-            <div className="dessert-info">
-              <h3>
-                Kor Spicy Rice Cake <span>$3.25</span>
-              </h3>
-              <p>Want a super satisfying, quick and easy dinner.</p>
+            <div className="dessert-container-box">
+              <div className="dessert-img">
+                <img src="./assets/meal2.jpeg" alt="m" />
+              </div>
+              <div className="dessert-info">
+                <h3>
+                  Mein Noodles <span>$20.25</span>
+                </h3>
+                <p>Want a super satisfying, quick and easy dinner.</p>
+              </div>
             </div>
           </div>
-          <div className="dessert-container-box">
-            <div className="dessert-img">
-              <img src="./assets/meal4.png" alt="m" />
+          <div className="row">
+            <div className="dessert-container-box">
+              <div className="dessert-img">
+                <img src="./assets/meal3.jpeg" alt="m" />
+              </div>
+              <div className="dessert-info">
+                <h3>
+                  Kor Spicy Rice Cake <span>$3.25</span>
+                </h3>
+                <p>Want a super satisfying, quick and easy dinner.</p>
+              </div>
             </div>
-            <div className="dessert-info">
-              <h3>
-                Jajangmyeon Beans<span>$8.50</span>
-              </h3>
-              <p>Want a super satisfying, quick and easy dinner.</p>
+            <div className="dessert-container-box">
+              <div className="dessert-img">
+                <img src="./assets/meal4.png" alt="m" />
+              </div>
+              <div className="dessert-info">
+                <h3>
+                  Jajangmyeon Beans<span>$8.50</span>
+                </h3>
+                <p>Want a super satisfying, quick and easy dinner.</p>
+              </div>
             </div>
           </div>
-          <div className="dessert-container-box">
-            <div className="dessert-img">
-              <img src="./assets/meal5.png" alt="m" />
+          <div className="row">
+            <div className="dessert-container-box">
+              <div className="dessert-img">
+                <img src="./assets/meal5.png" alt="m" />
+              </div>
+              <div className="dessert-info">
+                <h3>
+                  Fried Chicken Bites <span>$5.50</span>
+                </h3>
+                <p>Want a super satisfying, quick and easy dinner.</p>
+              </div>
             </div>
-            <div className="dessert-info">
-              <h3>
-                Fried Chicken Bites <span>$5.50</span>
-              </h3>
-              <p>Want a super satisfying, quick and easy dinner.</p>
-            </div>
-          </div>
-          <div className="dessert-container-box">
-            <div className="dessert-img">
-              <img src="./assets/meal6.jpeg" alt="m" />
-            </div>
-            <div className="dessert-info">
-              <h3>
-                Chicken Barbecue <span>$10.50</span>
-              </h3>
-              <p>Want a super satisfying, quick and easy dinner.</p>
+            <div className="dessert-container-box">
+              <div className="dessert-img">
+                <img src="./assets/meal6.jpeg" alt="m" />
+              </div>
+              <div className="dessert-info">
+                <h3>
+                  Chicken Barbecue <span>$10.50</span>
+                </h3>
+                <p>Want a super satisfying, quick and easy dinner.</p>
+              </div>
             </div>
           </div>
         </div>
