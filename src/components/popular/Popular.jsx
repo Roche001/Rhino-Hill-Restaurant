@@ -98,70 +98,76 @@ const Popular = () => {
           </div>
         </div>
         <div className="dessert-container">
-          <div className="dessert-container-box">
-            <div className="dessert-img">
-              <img src="./assets/des6.jpeg" alt="ds" />
+          <div className="row">
+            <div className="dessert-container-box col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <div className="dessert-img">
+                <img src="./assets/des6.jpeg" alt="ds" />
+              </div>
+              <div className="dessert-info">
+                <h3>
+                  Liitle Smokies <span>$4.15</span>
+                </h3>
+                <p>Little Smokies Wrapped in Bacon with brown sugar</p>
+              </div>
             </div>
-            <div className="dessert-info">
-              <h3>
-                Liitle Smokies <span>$4.15</span>
-              </h3>
-              <p>Little Smokies Wrapped in Bacon with brown sugar</p>
-            </div>
-          </div>
-          <div className="dessert-container-box">
-            <div className="dessert-img">
-              <img src="./assets/des5.jpeg" alt="ds" />
-            </div>
-            <div className="dessert-info">
-              <h3>
-                Caramel Bacon <span>$14.25</span>
-              </h3>
-              <p>Little Smokies Wrapped in Bacon with brown sugar</p>
-            </div>
-          </div>
-          <div className="dessert-container-box">
-            <div className="dessert-img">
-              <img src="./assets/des4.jpeg" alt="ds" />
-            </div>
-            <div className="dessert-info">
-              <h3>
-                Caramel Walnuts <span>$10.50</span>
-              </h3>
-              <p>Little Smokies Wrapped in Bacon with brown sugar</p>
+            <div className="dessert-container-box col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <div className="dessert-img">
+                <img src="./assets/des5.jpeg" alt="ds" />
+              </div>
+              <div className="dessert-info">
+                <h3>
+                  Caramel Bacon <span>$14.25</span>
+                </h3>
+                <p>Little Smokies Wrapped in Bacon with brown sugar</p>
+              </div>
             </div>
           </div>
-          <div className="dessert-container-box">
-            <div className="dessert-img">
-              <img src="./assets/des3.jpeg" alt="ds" />
+          <div className="row">
+            <div className="dessert-container-box col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <div className="dessert-img">
+                <img src="./assets/des4.jpeg" alt="ds" />
+              </div>
+              <div className="dessert-info">
+                <h3>
+                  Caramel Walnuts <span>$10.50</span>
+                </h3>
+                <p>Little Smokies Wrapped in Bacon with brown sugar</p>
+              </div>
             </div>
-            <div className="dessert-info">
-              <h3>
-                Coffee Kisses <span>$5.00</span>
-              </h3>
-              <p>Little Smokies Wrapped in Bacon with brown sugar</p>
+            <div className="dessert-container-box col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <div className="dessert-img">
+                <img src="./assets/des3.jpeg" alt="ds" />
+              </div>
+              <div className="dessert-info">
+                <h3>
+                  Coffee Kisses <span>$5.00</span>
+                </h3>
+                <p>Little Smokies Wrapped in Bacon with brown sugar</p>
+              </div>
             </div>
           </div>
-          <div className="dessert-container-box">
-            <div className="dessert-img">
-              <img src="./assets/des2.jpeg" alt="ds" />
+          <div className="row">
+            <div className="dessert-container-box col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <div className="dessert-img">
+                <img src="./assets/des2.jpeg" alt="ds" />
+              </div>
+              <div className="dessert-info">
+                <h3>
+                  Chocolate Cookies <span>$3.15</span>
+                </h3>
+                <p>Little Smokies Wrapped in Bacon with brown sugar</p>
+              </div>
             </div>
-            <div className="dessert-info">
-              <h3>
-                Chocolate Cookies <span>$3.15</span>
-              </h3>
-              <p>Little Smokies Wrapped in Bacon with brown sugar</p>
-            </div>
-          </div>
-          <div className="dessert-container-box">
-            <div className="dessert-img">
-              <img src="./assets/des1.jpeg" alt="ds" />
-            </div>
-            <div className="dessert-info">
-              <h3>
-                Chocolate Cakes <span>$10.05</span>
-              </h3>
-              <p>Little Smokies Wrapped in Bacon with brown sugar</p>
+            <div className="dessert-container-box col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <div className="dessert-img">
+                <img src="./assets/des1.jpeg" alt="ds" />
+              </div>
+              <div className="dessert-info">
+                <h3>
+                  Chocolate Cakes <span>$10.05</span>
+                </h3>
+                <p>Little Smokies Wrapped in Bacon with brown sugar</p>
+              </div>
             </div>
           </div>
         </div>
