@@ -49,7 +49,7 @@
   border-radius: 30%;
 }
 
-.menu-items h4 span {
+. .menu-items h4 span {
   font-family: "Playball", cursive;
   font-size: 1.3rem;
   border-bottom: 1px dotted #ea9f41;
@@ -209,25 +209,4 @@
   color: #ea9f41;
   font-family: "Satisfy", cursive;
   font-size: 1.2rem;
-}
-@media (max-width: 600px) {
-  .dessert-container {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    gap: 4rem;
-  }
-  .dessert-container-box {
-    height: 6rem;
-    width: 5rem;
-    padding-bottom: 2rem;
-  }
-  .dessert-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 2px;
-    margin-top: 6rem;
-  }
 }

@@ -9,7 +9,7 @@ const Popular = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
-      <section id="Popular">
+      <section id="Popular" className="container-fluid">
         <div className="hot-deals">
           <div className="overlay-a"></div>
           <div className="food-one">
