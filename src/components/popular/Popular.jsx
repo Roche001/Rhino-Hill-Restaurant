@@ -179,7 +179,7 @@ const Popular = () => {
         </div>
         <div className="drinks">
           <div className="row">
-            <div className="drinks-container-box">
+            <div className="drinks-container-box col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <div className="drinks-img">
                 <img src="./assets/drink3.jpeg" alt="ds" />
               </div>
@@ -190,7 +190,7 @@ const Popular = () => {
                 <p>Little Smokies Wrapped in Bacon with brown sugar</p>
               </div>
             </div>
-            <div className="drinks-container-box">
+            <div className="drinks-container-box col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <div className="drinks-img">
                 <img src="./assets/drink2.jpeg" alt="ds" />
               </div>
@@ -203,7 +203,7 @@ const Popular = () => {
             </div>
           </div>
           <div className="row">
-            <div className="drinks-container-box">
+            <div className="drinks-container-box col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <div className="drinks-img">
                 <img src="./assets/drink1.jpeg" alt="ds" />
               </div>
@@ -214,7 +214,7 @@ const Popular = () => {
                 <p>Simply mixe everthing together</p>
               </div>
             </div>
-            <div className="drinks-container-box">
+            <div className="drinks-container-box col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <div className="drinks-img">
                 <img src="./assets/drink6.jpeg" alt="ds" />
               </div>
@@ -227,7 +227,7 @@ const Popular = () => {
             </div>
           </div>
           <div className="row">
-            <div className="drinks-container-box">
+            <div className="drinks-container-box col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
               <div className="drinks-img">
                 <img src="./assets/drink5.jpeg" alt="ds" />
               </div>
@@ -238,7 +238,7 @@ const Popular = () => {
                 <p>Quick,beautiful and tastes delicious</p>
               </div>
             </div>
-            <div className="drinks-container-box">
+            <div className="drinks-container-box col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <div className="drinks-img">
                 <img src="./assets/drink4.jpeg" alt="ds" />
               </div>
@@ -251,7 +251,7 @@ const Popular = () => {
             </div>
           </div>
           <div className="row">
-            <div className="drinks-container-box">
+            <div className="drinks-container-box col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <div className="drinks-img">
                 <img src="./assets/drink8.jpeg" alt="ds" />
               </div>
@@ -262,7 +262,7 @@ const Popular = () => {
                 <p>Smoothie-Cooking Classy</p>
               </div>
             </div>
-            <div className="drinks-container-box">
+            <div className="drinks-container-box col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <div className="drinks-img">
                 <img src="./assets/drink7.jpeg" alt="ds" />
               </div>
