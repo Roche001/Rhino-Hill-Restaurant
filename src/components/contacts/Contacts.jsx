@@ -30,13 +30,13 @@ const Contacts = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
-      <section id="Contact">
+      <section id="Contact" className="container-fluid">
         <div className="contact">
           <h3>OUR CONTACTS</h3>
           <p>where to find us</p>
         </div>
-        <div className="contact-info">
-          <div className="contact-info-one">
+        <div className="contact-info row">
+          <div className="contact-info-one col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <h4>CONTACT INFO</h4>
             <p>
               The Riviera restaurant has been built in the best traditions of
@@ -57,7 +57,7 @@ const Contacts = () => {
               Riviera.{" "}
             </p>
           </div>
-          <div className="contact-info-two">
+          <div className="contact-info-two col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <div className="info-option-one">
               <h3>Rhino Hill Restaurant-Nairobi</h3>
               <p> 27th Westlands, Nairobi, NRB 100198</p>
@@ -78,7 +78,7 @@ const Contacts = () => {
             </div>
           </div>
         </div>
-        <div className="location">
+        <div className="location row">
           <div className="location-h3">
             <h3>Our Location</h3>
             <p>Where To Find Us</p>
@@ -92,7 +92,7 @@ const Contacts = () => {
             />
           </div>
         </div>
-        <div className="form">
+        <div className="form-a row text-center">
           <div className="form-def">
             <h2>Get In Touch</h2>
             <p>Write to us</p>

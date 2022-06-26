@@ -25,14 +25,10 @@
   font-family: "Playball", cursive;
 }
 .contact-info {
-  display: flex;
-  flex-direction: row;
-  gap: 4rem;
 }
 .contact-info-one {
   display: flex;
   flex-direction: column;
-  margin-left: 12rem;
   justify-content: center;
   align-items: center;
 }
@@ -45,7 +41,6 @@
   justify-content: space-evenly;
 }
 .contact-info-two {
-  margin-left: 10rem;
 }
 .info-option-one {
   display: flex;
@@ -82,10 +77,11 @@
 .location-h3 p {
   font-family: "Playball", cursive;
 }
-.form {
+.form-a {
   background-image: url("../../images/one.jpeg");
   background-attachment: fixed;
   background-repeat: repeat;
+  width: 100%;
 }
 .form-def {
   padding: 2rem;
@@ -111,7 +107,7 @@ form {
   align-items: center;
   justify-content: center;
   justify-items: center;
-  padding: 2rem;
+  padding: 4rem;
   margin-top: 20px;
   gap: 1.2rem;
 }
