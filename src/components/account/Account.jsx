@@ -14,12 +14,12 @@ const Account = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
-      <section id="Account">
+      <section id="Account" className="container-fluid">
         <div className="account-header">
           <h2>Account Creation</h2>
           <p>A few clicks is all it takes.</p>
         </div>
-        <div className="forms">
+        <div className="forms row">
           <div className="forms-explanation">
             <div className="info">
               <h3>Registration Info</h3>
