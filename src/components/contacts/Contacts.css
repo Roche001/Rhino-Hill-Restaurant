@@ -82,6 +82,9 @@
   background-attachment: fixed;
   background-repeat: repeat;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .form-def {
   padding: 2rem;
