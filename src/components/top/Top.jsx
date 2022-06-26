@@ -12,7 +12,7 @@ const Top = () => {
         <Navbar.Brand href="#Home">
           <div className="img">
             <img src="./assets/Logo1.png" alt="Logo" />
-            <h4> Rhino Hill Restaurant</h4>
+            <h4> Rhino Hill café</h4>
           </div>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
