@@ -206,7 +206,6 @@ p {
 
 .overlay {
   position: absolute;
-  height: 100vh;
   width: 100%;
   background: #000;
   opacity: 0.4;
