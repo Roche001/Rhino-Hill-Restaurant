@@ -12,17 +12,17 @@ const Speciality = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
-      <section id="Speciality">
+      <section id="Speciality" className="container-fluid">
         <div className="table">
           <h3>MAKE AN ONLINE RESERVATION</h3>
           <p>Maximum luxury. Exclusive sensation.</p>
         </div>
-        <div className="reservation">
+        <div className="reservation row text-center">
           <h4>Online booking terms and conditions</h4>
           <p>Contractual cancellation rights are included in all versions.</p>
         </div>
-        <div className="forms-resrve">
-          <div className="book-table">
+        <div className="forms-resrve row">
+          <div className="book-table col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <label>Book Table</label>
             <div className="picker-a">
               <DatePicker
@@ -100,7 +100,7 @@ const Speciality = () => {
               </select>
             </div>
           </div>
-          <div className="contact-details">
+          <div className="contact-details col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <label> Customer Info</label>
             <div className="put">
               <input type="Name" name="Name" placeholder="Name" required />
@@ -127,7 +127,7 @@ const Speciality = () => {
             ></textarea>
           </div>
         </div>
-        <div className="button-sm">
+        <div className="button-sm row text-center">
           <button type="submit" className="btn-bg">
             Make a Reservation
           </button>
