@@ -90,18 +90,13 @@
   font-family: "Satisfy", cursive;
 }
 .dessert-container {
-  height: 60vh;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid: 1em;
-  padding: 4rem;
+  height: 80vh;
+  margin-top: 5rem;
 }
 .dessert-container-box {
-  padding-top: 2rem;
-  height: 5rem;
   display: flex;
   flex-direction: row;
-  margin-left: 8rem;
+  padding-top: 0.5rem;
   cursor: grabbing;
 }
 .dessert-img {

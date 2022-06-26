@@ -19,7 +19,7 @@ const Popular = () => {
         </div>
         <div className="dessert-container">
           <div className="row">
-            <div className="dessert-container-box">
+            <div className="dessert-container-box col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <div className="dessert-img">
                 <img src="./assets/meal1.png" alt="m" />
               </div>
@@ -30,7 +30,7 @@ const Popular = () => {
                 <p>Want a super satisfying, quick and easy dinner.</p>
               </div>
             </div>
-            <div className="dessert-container-box">
+            <div className="dessert-container-box col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <div className="dessert-img">
                 <img src="./assets/meal2.jpeg" alt="m" />
               </div>
@@ -43,7 +43,7 @@ const Popular = () => {
             </div>
           </div>
           <div className="row">
-            <div className="dessert-container-box">
+            <div className="dessert-container-box col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <div className="dessert-img">
                 <img src="./assets/meal3.jpeg" alt="m" />
               </div>
@@ -54,7 +54,7 @@ const Popular = () => {
                 <p>Want a super satisfying, quick and easy dinner.</p>
               </div>
             </div>
-            <div className="dessert-container-box">
+            <div className="dessert-container-box col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
               <div className="dessert-img">
                 <img src="./assets/meal4.png" alt="m" />
               </div>
@@ -67,7 +67,7 @@ const Popular = () => {
             </div>
           </div>
           <div className="row">
-            <div className="dessert-container-box">
+            <div className="dessert-container-box col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <div className="dessert-img">
                 <img src="./assets/meal5.png" alt="m" />
               </div>
@@ -78,7 +78,7 @@ const Popular = () => {
                 <p>Want a super satisfying, quick and easy dinner.</p>
               </div>
             </div>
-            <div className="dessert-container-box">
+            <div className="dessert-container-box col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <div className="dessert-img">
                 <img src="./assets/meal6.jpeg" alt="m" />
               </div>
