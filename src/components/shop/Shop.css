@@ -30,6 +30,7 @@
   justify-content: center;
   justify-items: center;
   padding: 1rem;
+  height: auto;
 }
 .shop-img {
   width: 25rem;
