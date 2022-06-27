@@ -32,7 +32,7 @@ const Contacts = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
-      <section id="Contact" className="container-fluid">
+      <section id="Contact" className="container-fluid" data-aos="zoom-in-up">
         <div className="contact">
           <h3>OUR CONTACTS</h3>
           <p>where to find us</p>

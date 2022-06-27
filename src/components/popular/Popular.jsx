@@ -11,7 +11,7 @@ const Popular = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
-      <section id="Popular" className="container-fluid">
+      <section id="Popular" className="container-fluid" data-aos="zoom-in-up">
         <div className="hot-deals">
           <div className="overlay-a"></div>
           <div className="food-one">

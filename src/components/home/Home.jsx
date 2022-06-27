@@ -19,7 +19,7 @@ const Home = () => {
     duration: 2000,
   });
   return (
-    <section id="Home" className="container-fluid">
+    <section id="Home" className="container-fluid" data-aos="zoom-in-up">
       <div
         id="carouselExampleFade"
         class="carousel slide carousel-fade"

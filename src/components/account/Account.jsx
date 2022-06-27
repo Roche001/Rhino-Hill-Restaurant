@@ -16,7 +16,7 @@ const Account = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
-      <section id="Account" className="container-fluid">
+      <section id="Account" className="container-fluid" data-aos="zoom-in-up">
         <div className="account-header">
           <h2>Account Creation</h2>
           <p>A few clicks is all it takes.</p>

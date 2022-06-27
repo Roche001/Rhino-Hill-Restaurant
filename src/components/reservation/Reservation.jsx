@@ -14,7 +14,11 @@ const Speciality = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
-      <section id="Speciality" className="container-fluid">
+      <section
+        id="Speciality"
+        className="container-fluid"
+        data-aos="zoom-in-up"
+      >
         <div className="table">
           <h3>MAKE AN ONLINE RESERVATION</h3>
           <p>Maximum luxury. Exclusive sensation.</p>

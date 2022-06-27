@@ -9,7 +9,7 @@ import "aos/dist/aos.css";
 
 const Find = () => {
   return (
-    <section id="about-us" className="container-fluid">
+    <section id="about-us" className="container-fluid" data-aos="zoom-in-up">
       <div className="hill-one row">
         <div className="tweet col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
           <h3>OUR TWITTER</h3>
