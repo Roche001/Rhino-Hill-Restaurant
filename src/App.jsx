@@ -19,11 +19,11 @@ const App = () => {
       <AnimatePresence>
         <Routes>
           <Route path="/" exact element={<Home />} />
-          <Route path="/Popular" exact element={<Popular />} />
-          <Route path="/Reservation" exact element={<Reservation />} />
-          <Route path="/Account" exact element={<Account />} />
-          <Route path="/Contacts" exact element={<Contacts />} />
-          <Route path="/Shop" exact element={<Shop />} />
+          <Route path="Popular" exact element={<Popular />} />
+          <Route path="Reservation" exact element={<Reservation />} />
+          <Route path="Account" exact element={<Account />} />
+          <Route path="Contacts" exact element={<Contacts />} />
+          <Route path="Shop" exact element={<Shop />} />
         </Routes>
       </AnimatePresence>
       <Find />
