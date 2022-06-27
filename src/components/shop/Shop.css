@@ -33,16 +33,12 @@
   height: auto;
 }
 .shop-img {
-  width: 25rem;
-  height: 15rem;
-  overflow: hidden;
   background-position: center;
   transition: 400ms;
 }
 
 .shop-img img {
-  max-width: 20rem;
-  width: 20rem;
+  width: 25rem;
   height: 15rem;
   transition: 400ms;
   border-radius: 0.5rem;
