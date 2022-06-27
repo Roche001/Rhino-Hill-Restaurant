@@ -2,6 +2,8 @@ import React from "react";
 import "./Shop.css";
 import { GrStar } from "react-icons/gr";
 import { motion } from "framer-motion";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Shop = () => {
   return (
     <motion.div

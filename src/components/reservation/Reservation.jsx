@@ -3,6 +3,8 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import "./Reservation.css";
 import { motion } from "framer-motion";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Speciality = () => {
   const [startDate, setStartDate] = useState(new Date());

@@ -4,6 +4,8 @@ import { FaTwitter } from "react-icons/fa";
 import { SiFacebook } from "react-icons/si";
 import { BsInstagram } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Find = () => {
   return (

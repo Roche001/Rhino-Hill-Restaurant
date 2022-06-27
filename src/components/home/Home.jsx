@@ -9,11 +9,15 @@ import { CgArrowsHAlt } from "react-icons/cg";
 import { GrStar } from "react-icons/gr";
 import { CgTag } from "react-icons/cg";
 import { FaQuoteLeft } from "react-icons/fa";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "swiper/css";
 import "swiper/css/pagination";
 
 const Home = () => {
+  AOS.init({
+    duration: 2000,
+  });
   return (
     <section id="Home" className="container-fluid">
       <div

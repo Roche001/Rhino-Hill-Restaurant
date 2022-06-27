@@ -7,6 +7,8 @@ import {
   Marker,
 } from "react-google-maps";
 import { motion } from "framer-motion";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Contacts = () => {
   const MapWithAMarker = withScriptjs(

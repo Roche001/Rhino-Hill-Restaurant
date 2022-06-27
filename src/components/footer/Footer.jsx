@@ -1,6 +1,8 @@
 import React from "react";
 import "./Footer.css";
 import { AiOutlineCopyrightCircle } from "react-icons/ai";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Footer = () => {
   return (

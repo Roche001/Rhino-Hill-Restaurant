@@ -6,6 +6,8 @@ import { BsTelephoneFill } from "react-icons/bs";
 import { GiOfficeChair } from "react-icons/gi";
 import { Si1Password } from "react-icons/si";
 import { motion } from "framer-motion";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Account = () => {
   return (
