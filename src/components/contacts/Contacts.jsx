@@ -11,6 +11,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Contacts = () => {
+  AOS.init({
+    duration: 2000,
+  });
   const MapWithAMarker = withScriptjs(
     withGoogleMap((props) => (
       <GoogleMap
