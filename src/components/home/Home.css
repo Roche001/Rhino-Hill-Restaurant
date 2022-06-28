@@ -153,6 +153,7 @@ p {
   color: #ea9f41;
   font-size: 2rem;
   font-weight: 900;
+  overflow-x: hidden;
 }
 .restorans-img {
   display: flex;
