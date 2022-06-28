@@ -331,14 +331,6 @@ p {
   overflow-y: hidden;
 }
 
-.overlay {
-  position: absolute;
-  height: 80rem;
-  width: 100%;
-  background: #000;
-  opacity: 0.4;
-  z-index: -1;
-}
 .test-header {
   text-align: center;
   color: #fff;
