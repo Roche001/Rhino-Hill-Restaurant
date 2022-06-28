@@ -192,6 +192,7 @@
 }
 .drinks-info h3 {
   border-bottom: #000 dotted 1px;
+  overflow-y: hidden;
 }
 .drinks-info p {
   color: #686868;
