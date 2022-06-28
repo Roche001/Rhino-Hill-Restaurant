@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import "./Home.css";
-
 import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper";
-
 import { CgArrowsHAlt } from "react-icons/cg";
 import { GrStar } from "react-icons/gr";
 import { CgTag } from "react-icons/cg";
@@ -256,6 +257,7 @@ const Home = () => {
           navigation={true}
           modules={[Autoplay, Pagination, Navigation]}
           className="testimonial-box"
+          className="mySwiper"
         >
           <SwiperSlide className="review-box">
             <div className="review-box-img">
