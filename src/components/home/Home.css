@@ -277,6 +277,7 @@ p {
   text-align: center;
   font-size: 2rem;
   font-family: "Playball", cursive;
+  overflow-y: hidden;
 }
 
 .chefs {
