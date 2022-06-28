@@ -178,6 +178,7 @@ p {
   background-repeat: no-repeat;
   color: #fff;
   margin-top: -0.5rem;
+  overflow-y: hidden;
 }
 #deals::after {
   content: "";
