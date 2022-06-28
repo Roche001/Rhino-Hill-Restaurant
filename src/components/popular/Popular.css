@@ -123,6 +123,7 @@
 }
 .dessert-info h3 {
   border-bottom: #000 dotted 1px;
+  overflow-y: hidden;
 }
 .dessert-info p {
   color: #686868;
