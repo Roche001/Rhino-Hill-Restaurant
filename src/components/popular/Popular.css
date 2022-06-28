@@ -98,6 +98,7 @@
   flex-direction: row;
   padding-top: 0.5rem;
   cursor: grabbing;
+  overflow-y: hidden;
 }
 .dessert-img {
   background-position: center;
@@ -109,8 +110,8 @@
   transform: scale(1.2) rotate(50deg);
 }
 .dessert-img img {
-  height: 8rem;
-  width: 8rem;
+  height: 5rem;
+  width: 5rem;
   border-radius: 50%;
 }
 .dessert-info {
