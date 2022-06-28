@@ -51,8 +51,8 @@
   display: flex;
   flex-direction: row;
   margin-top: rem;
-  height: 100vh;
   width: 100%;
+  overflow-y: hidden;
 }
 .about-img {
   margin-left: 15rem;
@@ -88,13 +88,12 @@ p {
 }
 .operations {
   background: #616161;
-  height: 60vh;
   border: 4px dotted #b95205;
+  overflow-y: hidden;
 }
 
 .opening {
   text-align: center;
-  padding-top: 5rem;
 }
 .opening h3 {
   font-size: 2.5rem;

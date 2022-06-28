@@ -35,6 +35,7 @@
 .shop-img {
   background-position: center;
   transition: 400ms;
+  overflow-y: hidden;
 }
 
 .shop-img img {
