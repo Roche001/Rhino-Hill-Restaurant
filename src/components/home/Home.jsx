@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 import "./Home.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -257,7 +257,6 @@ const Home = () => {
           navigation={true}
           modules={[Autoplay, Pagination, Navigation]}
           className="testimonial-box"
-          className="mySwiper"
         >
           <SwiperSlide className="review-box">
             <div className="review-box-img">
