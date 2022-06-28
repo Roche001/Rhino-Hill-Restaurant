@@ -327,22 +327,12 @@ p {
   background-size: cover;
   background-image: url("../../images/vector3.jpeg");
   z-index: 10;
+  overflow-y: hidden;
 }
-#testimonials::after {
-  content: "";
-  width: 100%;
-  height: 10px;
-  position: absolute;
-  bottom: 100%;
-  left: 0px;
-  background: linear-gradient(-50deg, rgba(0, 0, 0, 0.7) 4px, transparent 0px),
-    linear-gradient(50deg, rgba(0, 0, 0, 0.7) 4px, transparent 0px);
-  background-size: 10px 10px;
-  background-repeat: repeat-x;
-}
+
 .overlay {
   position: absolute;
-  height: 80%;
+  height: 80rem;
   width: 100%;
   background: #000;
   opacity: 0.4;
