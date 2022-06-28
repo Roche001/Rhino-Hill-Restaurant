@@ -163,6 +163,7 @@
   margin-top: 1rem;
   display: flex;
   flex-direction: row;
+  overflow-y: hidden;
 }
 .drinks-img {
   background-position: center;
@@ -172,9 +173,10 @@
   transition: 400ms;
 }
 .drinks-img img {
-  height: 7rem;
-  width: 7rem;
+  height: 5rem;
+  width: 5rem;
   border-radius: 50%;
+  overflow-y: hidden;
 }
 .drinks-img :hover {
   border-radius: 20%;
