@@ -14,9 +14,9 @@ const Home = () => {
   return (
     <section id="Home" className="container-fluid" data-aos="zoom-in-up">
       <div
-        id="carouselExampleFade"
+        id="carouselBasicExample"
         class="carousel slide carousel-fade"
-        data-ride="carousel"
+        data-mdb-ride="carousel"
       >
         <div class="carousel-inner">
           <div className="carousel-item active">

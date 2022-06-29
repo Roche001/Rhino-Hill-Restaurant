@@ -403,3 +403,6 @@ p {
 .quote:hover {
   background: #616161;
 }
+.carousel-item {
+  height: 90vh;
+}
