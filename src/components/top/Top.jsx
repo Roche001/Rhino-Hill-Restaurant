@@ -3,10 +3,24 @@ import "./Top.css";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Container, Nav, Navbar } from "react-bootstrap";
-
+import $ from "jquery";
 const Top = () => {
   const [activeNav, setActiveNav] = useState("/");
+  $(".button").click(function (e) {
+    e.preventDefault();
+    setContent($(this));
+  });
 
+  // set content on load
+  $(".button.active").length && setContent($(".button.active"));
+
+  function setContent($el) {
+    $(".button").removeClass("active");
+    $(".container").hide();
+
+    $el.addClass("active");
+    $($el.data("rel")).show();
+  }
   return (
     <Navbar collapseOnSelect expand="lg" bg="#f57f1" variant="dark">
       <Container>
