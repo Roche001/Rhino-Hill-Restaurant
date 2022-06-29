@@ -1,6 +1,5 @@
 import React from "react";
 import "./Home.css";
-import { Autoplay, Pagination, Navigation } from "swiper";
 import { CgArrowsHAlt } from "react-icons/cg";
 import { GrStar } from "react-icons/gr";
 import { CgTag } from "react-icons/cg";
@@ -246,107 +245,115 @@ const Home = () => {
           data-bs-ride="carousel"
         >
           <div class="carousel-inner">
-            <div
-              class="carousel-item active"
-              data-bs-interval="10000"
-              className="review-box"
-            >
-              <div className="review-box-img">
-                <img src="./assets/rev1.jpeg" alt="r" />
+            <div class="carousel-item active" data-bs-interval="1000">
+              <div
+                class="carousel-item active"
+                data-bs-interval="10000"
+                className="review-box"
+              >
+                <div className="review-box-img">
+                  <img src="./assets/rev1.jpeg" alt="r" />
+                </div>
+                <div className="reveiw-box-name">
+                  <h3>Andrés de Fonollosa</h3>
+                  <h4>Actor, writer and artist</h4>
+                </div>
+                <div className="comment">
+                  <p>
+                    De verdad... ¿qué hay de lo que no te guste Rhino Hill
+                    Restaurant? El servicio es excelente, el ambiente es
+                    insuperable <br />y la comida es absolutamente increíble.
+                    Nunca decepciones en ningún momento. de dia o de noche!
+                  </p>
+                </div>
+                <div className="stars">
+                  <GrStar />
+                  <GrStar />
+                  <GrStar />
+                  <GrStar />
+                  <GrStar />
+                </div>
               </div>
-              <div className="reveiw-box-name">
-                <h3>Andrés de Fonollosa</h3>
-                <h4>Actor, writer and artist</h4>
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+              <div
+                class="carousel-item active"
+                data-bs-interval="10000"
+                className="review-box"
+              >
+                <div className="review-box-img">
+                  <img src="./assets/rev2.jpeg" alt="r" />
+                </div>
+                <div className="reveiw-box-name">
+                  <h3>Silene Oliveira</h3>
+                  <h4>Actor, writer and artist</h4>
+                </div>
+                <div className="comment">
+                  <p>
+                    Thank you Again @ Rhino Hill Restaurant team for outdoing{" "}
+                    <br />
+                    yourselves yet again.We really enjoyed the breakfast buffet
+                    as
+                    <br />
+                    requested last week . Great organisation and keen service .{" "}
+                    <br />
+                    My team and I say thank you. We will be back again and
+                    again.
+                  </p>
+                </div>
+                <div className="stars">
+                  <GrStar />
+                  <GrStar />
+                  <GrStar />
+                  <GrStar />
+                  <GrStar />
+                </div>
               </div>
-              <div className="comment">
-                <p>
-                  De verdad... ¿qué hay de lo que no te guste Rhino Hill
-                  Restaurant? El servicio es excelente, el ambiente es
-                  insuperable <br />y la comida es absolutamente increíble.
-                  Nunca decepciones en ningún momento. de dia o de noche!
-                </p>
-              </div>
-              <div className="stars">
-                <GrStar />
-                <GrStar />
-                <GrStar />
-                <GrStar />
-                <GrStar />
+            </div>
+            <div class="carousel-item">
+              <div
+                class="carousel-item active"
+                data-bs-interval="10000"
+                className="review-box"
+              >
+                <div className="review-box-img">
+                  <img src="./assets/rev3.jpeg" alt="r" />
+                </div>
+                <div className="reveiw-box-name">
+                  <h3>Keanu Reeves</h3>
+                  <h4>
+                    Actor{" "}
+                    <span>
+                      <CgTag />
+                    </span>
+                  </h4>
+                </div>
+                <div className="comment">
+                  <p>
+                    Food is delicious we were fortunate enough to visit Nairobi
+                    and <br />
+                    found this hotel to be the best by far.. our server Euphema
+                    is <br />
+                    courteous, efficient and helpful lady .Good food selection
+                    and <br />
+                    sparkling wine also we will be back again we going to
+                    recommend <br />
+                    her again..we had the pleasure of dealing with her service
+                    was <br />
+                    above special "shout out" to Valeria.
+                  </p>
+                </div>
+                <div className="stars">
+                  <GrStar />
+                  <GrStar />
+                  <GrStar />
+                  <GrStar />
+                  <GrStar />
+                </div>
               </div>
             </div>
             <div
-              class="carousel-item active"
-              data-bs-interval="10000"
-              className="review-box"
-            >
-              <div className="review-box-img">
-                <img src="./assets/rev2.jpeg" alt="r" />
-              </div>
-              <div className="reveiw-box-name">
-                <h3>Silene Oliveira</h3>
-                <h4>Actor, writer and artist</h4>
-              </div>
-              <div className="comment">
-                <p>
-                  Thank you Again @ Rhino Hill Restaurant team for outdoing{" "}
-                  <br />
-                  yourselves yet again.We really enjoyed the breakfast buffet as
-                  <br />
-                  requested last week . Great organisation and keen service .{" "}
-                  <br />
-                  My team and I say thank you. We will be back again and again.
-                </p>
-              </div>
-              <div className="stars">
-                <GrStar />
-                <GrStar />
-                <GrStar />
-                <GrStar />
-                <GrStar />
-              </div>
-            </div>
-            <div
-              class="carousel-item active"
-              data-bs-interval="10000"
-              className="review-box"
-            >
-              <div className="review-box-img">
-                <img src="./assets/rev3.jpeg" alt="r" />
-              </div>
-              <div className="reveiw-box-name">
-                <h3>Keanu Reeves</h3>
-                <h4>
-                  Actor{" "}
-                  <span>
-                    <CgTag />
-                  </span>
-                </h4>
-              </div>
-              <div className="comment">
-                <p>
-                  Food is delicious we were fortunate enough to visit Nairobi
-                  and <br />
-                  found this hotel to be the best by far.. our server Euphema is{" "}
-                  <br />
-                  courteous, efficient and helpful lady .Good food selection and{" "}
-                  <br />
-                  sparkling wine also we will be back again we going to
-                  recommend <br />
-                  her again..we had the pleasure of dealing with her service was{" "}
-                  <br />
-                  above special "shout out" to Valeria.
-                </p>
-              </div>
-              <div className="stars">
-                <GrStar />
-                <GrStar />
-                <GrStar />
-                <GrStar />
-                <GrStar />
-              </div>
-            </div>
-            <div
-              class="carousel-item active"
+              class="carousel-item"
               data-bs-interval="10000"
               className="review-box"
             >
@@ -379,6 +386,24 @@ const Home = () => {
               </div>
             </div>
           </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
         <div className="quote row text-center">
           <FaQuoteLeft />
