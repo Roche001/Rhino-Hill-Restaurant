@@ -1,10 +1,5 @@
 import React from "react";
 import "./Home.css";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-import "./styles.css";
 import { Autoplay, Pagination, Navigation } from "swiper";
 import { CgArrowsHAlt } from "react-icons/cg";
 import { GrStar } from "react-icons/gr";
