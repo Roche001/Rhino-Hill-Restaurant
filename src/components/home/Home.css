@@ -321,7 +321,7 @@ p {
 }
 #testimonials {
   position: relative;
-  margin-top: -2rem;
+
   max-width: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -329,6 +329,7 @@ p {
   background-image: url("../../images/vector3.jpeg");
   z-index: 10;
   overflow-y: hidden;
+  margin: 1rem;
 }
 
 .test-header {
@@ -377,7 +378,7 @@ p {
   font-family: "Playball", cursive;
 }
 .comment {
-  height: 15rem;
+  height: 10rem;
 }
 .comment p {
   color: #fff;
