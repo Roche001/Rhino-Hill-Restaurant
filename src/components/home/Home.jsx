@@ -5,6 +5,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "./styles.css";
+import { Autoplay, Pagination, Navigation } from "swiper";
 import { CgArrowsHAlt } from "react-icons/cg";
 import { GrStar } from "react-icons/gr";
 import { CgTag } from "react-icons/cg";
@@ -245,11 +246,17 @@ const Home = () => {
           <CgArrowsHAlt />
         </div>
         <Swiper
-          spaceBetween={50}
-          slidesPerView={3}
-          centeredSlides
-          onSlideChange={() => console.log("slide change")}
-          onSwiper={(swiper) => console.log(swiper)}
+          spaceBetween={30}
+          centeredSlides={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          navigation={true}
+          modules={[Autoplay, Pagination, Navigation]}
           className="testimonial-box"
         >
           <SwiperSlide className="review-box">
