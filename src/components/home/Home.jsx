@@ -1,8 +1,10 @@
 import React from "react";
 import "./Home.css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/swiper-bundle.min.css";
-import "swiper/swiper.min.css";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import "./styles.css";
 import { CgArrowsHAlt } from "react-icons/cg";
 import { GrStar } from "react-icons/gr";
 import { CgTag } from "react-icons/cg";
