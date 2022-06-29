@@ -245,118 +245,94 @@ const Home = () => {
           data-bs-ride="carousel"
         >
           <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="1000">
-              <div
-                class="carousel-item active"
-                data-bs-interval="10000"
-                className="review-box"
-              >
-                <div className="review-box-img">
-                  <img src="./assets/rev1.jpeg" alt="r" />
-                </div>
-                <div className="reveiw-box-name">
-                  <h3>Andrés de Fonollosa</h3>
-                  <h4>Actor, writer and artist</h4>
-                </div>
-                <div className="comment">
-                  <p>
-                    De verdad... ¿qué hay de lo que no te guste Rhino Hill
-                    Restaurant? El servicio es excelente, el ambiente es
-                    insuperable <br />y la comida es absolutamente increíble.
-                    Nunca decepciones en ningún momento. de dia o de noche!
-                  </p>
-                </div>
-                <div className="stars">
-                  <GrStar />
-                  <GrStar />
-                  <GrStar />
-                  <GrStar />
-                  <GrStar />
-                </div>
+            <div class="carousel-item active">
+              <div className="review-box-img">
+                <img src="./assets/rev1.jpeg" alt="r" />
+              </div>
+              <div className="reveiw-box-name">
+                <h3>Andrés de Fonollosa</h3>
+                <h4>Actor, writer and artist</h4>
+              </div>
+              <div className="comment">
+                <p>
+                  De verdad... ¿qué hay de lo que no te guste Rhino Hill <br />
+                  Restaurant? El servicio es excelente, el ambiente es <br />
+                  insuperable y la comida es absolutamente increíble. <br />
+                  Nunca decepciones en ningún momento. de dia o de noche!
+                </p>
+              </div>
+              <div className="stars">
+                <GrStar />
+                <GrStar />
+                <GrStar />
+                <GrStar />
+                <GrStar />
               </div>
             </div>
-            <div class="carousel-item" data-bs-interval="1000">
-              <div
-                class="carousel-item active"
-                data-bs-interval="10000"
-                className="review-box"
-              >
-                <div className="review-box-img">
-                  <img src="./assets/rev2.jpeg" alt="r" />
-                </div>
-                <div className="reveiw-box-name">
-                  <h3>Silene Oliveira</h3>
-                  <h4>Actor, writer and artist</h4>
-                </div>
-                <div className="comment">
-                  <p>
-                    Thank you Again @ Rhino Hill Restaurant team for outdoing{" "}
-                    <br />
-                    yourselves yet again.We really enjoyed the breakfast buffet
-                    as
-                    <br />
-                    requested last week . Great organisation and keen service .{" "}
-                    <br />
-                    My team and I say thank you. We will be back again and
-                    again.
-                  </p>
-                </div>
-                <div className="stars">
-                  <GrStar />
-                  <GrStar />
-                  <GrStar />
-                  <GrStar />
-                  <GrStar />
-                </div>
-              </div>
-            </div>
+
             <div class="carousel-item">
-              <div
-                class="carousel-item active"
-                data-bs-interval="10000"
-                className="review-box"
-              >
-                <div className="review-box-img">
-                  <img src="./assets/rev3.jpeg" alt="r" />
-                </div>
-                <div className="reveiw-box-name">
-                  <h3>Keanu Reeves</h3>
-                  <h4>
-                    Actor{" "}
-                    <span>
-                      <CgTag />
-                    </span>
-                  </h4>
-                </div>
-                <div className="comment">
-                  <p>
-                    Food is delicious we were fortunate enough to visit Nairobi
-                    and <br />
-                    found this hotel to be the best by far.. our server Euphema
-                    is <br />
-                    courteous, efficient and helpful lady .Good food selection
-                    and <br />
-                    sparkling wine also we will be back again we going to
-                    recommend <br />
-                    her again..we had the pleasure of dealing with her service
-                    was <br />
-                    above special "shout out" to Valeria.
-                  </p>
-                </div>
-                <div className="stars">
-                  <GrStar />
-                  <GrStar />
-                  <GrStar />
-                  <GrStar />
-                  <GrStar />
-                </div>
+              <div className="review-box-img">
+                <img src="./assets/rev2.jpeg" alt="r" />
+              </div>
+              <div className="reveiw-box-name">
+                <h3>Silene Oliveira</h3>
+                <h4>Actor, writer and artist</h4>
+              </div>
+              <div className="comment">
+                <p>
+                  Thank you Again @ Rhino Hill Restaurant team for outdoing{" "}
+                  <br />
+                  yourselves yet again.We really enjoyed the breakfast buffet as
+                  <br />
+                  requested last week . Great organisation and keen service .{" "}
+                  <br />
+                  My team and I say thank you. We will be back again and again.
+                </p>
+              </div>
+              <div className="stars">
+                <GrStar />
+                <GrStar />
+                <GrStar />
+                <GrStar />
+                <GrStar />
               </div>
             </div>
-            <div
-              class="carousel-item"
-              data-bs-interval="10000"
-              className="review-box"
-            >
+
+            <div class="carousel-item">
+              <div className="review-box-img">
+                <img src="./assets/rev3.jpeg" alt="r" />
+              </div>
+              <div className="reveiw-box-name">
+                <h3>Keanu Reeves</h3>
+                <h4>
+                  Actor{" "}
+                  <span>
+                    <CgTag />
+                  </span>
+                </h4>
+              </div>
+              <div className="comment">
+                <p>
+                  Food is delicious we were fortunate enough to visit Nairobi
+                  and <br />
+                  found this hotel to be the best by far.. our server Euphema is{" "}
+                  <br />
+                  courteous, efficient and helpful lady .Good food selection and{" "}
+                  <br />
+                  sparkling wine also we will be back again we going to
+                  recommend her again.
+                </p>
+              </div>
+              <div className="stars">
+                <GrStar />
+                <GrStar />
+                <GrStar />
+                <GrStar />
+                <GrStar />
+              </div>
+            </div>
+
+            <div class="carousel-item">
               <div className="review-box-img">
                 <img src="./assets/rev4.jpeg" alt="r" />
               </div>
@@ -372,9 +348,7 @@ const Home = () => {
                   <br />
                   to how the service was delivered its always amazing - the{" "}
                   <br />
-                  consistency on food and service delivery is to die for- Moseti{" "}
-                  <br />
-                  and Maurice have the best service there can be
+                  consistency on food and service delivery.
                 </p>
               </div>
               <div className="stars">

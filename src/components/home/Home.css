@@ -376,7 +376,9 @@ p {
   color: #b95205;
   font-family: "Playball", cursive;
 }
-
+.comment {
+  height: 15rem;
+}
 .comment p {
   color: #fff;
   text-align: center;
