@@ -6,13 +6,17 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import $ from "jquery";
 const Top = () => {
   const [activeNav, setActiveNav] = useState("/");
+
   $(".button").click(function (e) {
     e.preventDefault();
     setContent($(this));
+    localStorage.setItem("active-container", $(this).data("rel"));
   });
 
-  // set content on load
-  $(".button.active").length && setContent($(".button.active"));
+  localStorage.getItem("active-container") &&
+    setContent(
+      $('.button[data-rel="' + localStorage.getItem("active-container") + '"]')
+    );
 
   function setContent($el) {
     $(".button").removeClass("active");
