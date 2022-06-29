@@ -25,6 +25,9 @@ const Home = () => {
               src="./assets/slider1.jpg"
               alt="First slide"
             />
+            <div className="words">
+              <h1>Food Made With Love</h1>
+            </div>
           </div>
           <div className="carousel-item">
             <img
