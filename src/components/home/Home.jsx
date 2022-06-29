@@ -14,9 +14,9 @@ const Home = () => {
   return (
     <section id="Home" className="container-fluid" data-aos="zoom-in-up">
       <div
-        id="carouselBasicExample"
+        id="carouselExampleFade"
         class="carousel slide carousel-fade"
-        data-mdb-ride="carousel"
+        data-ride="carousel"
       >
         <div class="carousel-inner">
           <div className="carousel-item active">
@@ -26,7 +26,7 @@ const Home = () => {
               alt="First slide"
             />
           </div>
-          <div className="carousel-item ">
+          <div className="carousel-item">
             <img
               className="d-block w-100"
               src="./assets/slider2.jpg"
@@ -451,7 +451,7 @@ const Home = () => {
               className="d-block w-100"
               alt="Cliff Above a Stormy Sea"
             />
-            <div className="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block">
               <h5>Third slide label</h5>
               <p>
                 Praesent commodo cursus magna, vel scelerisque nisl consectetur.
