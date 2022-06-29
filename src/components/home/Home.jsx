@@ -26,7 +26,7 @@ const Home = () => {
               alt="First slide"
             />
           </div>
-          <div className="carousel-item">
+          <div className="carousel-item ">
             <img
               className="d-block w-100"
               src="./assets/slider2.jpg"
