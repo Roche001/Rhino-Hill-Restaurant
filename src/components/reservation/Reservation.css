@@ -70,7 +70,6 @@ p {
   justify-content: center;
   align-items: center;
   justify-items: center;
-  gap: 1rem;
 }
 .contact-details {
   display: flex;
