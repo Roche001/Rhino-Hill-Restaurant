@@ -152,7 +152,11 @@ const Shop = () => {
             </div>
             <div className="shop-items col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
               <div className="shop-img">
-                <img src="./assets/des6.jpeg" alt="j" />
+                <img
+                  className="d-block w-100"
+                  src="./assets/des6.jpeg"
+                  alt="j"
+                />
               </div>
               <div className="shop-info">
                 <h4>Liitle Smokies </h4>
