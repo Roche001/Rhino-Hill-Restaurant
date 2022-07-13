@@ -80,6 +80,7 @@
   justify-content: center;
   align-items: center;
   justify-items: center;
+  text-align: center;
   position: relative;
   width: 12rem;
   height: 3rem;
@@ -90,8 +91,10 @@
   padding: 2rem;
   border-radius: 0.5rem;
   text-decoration: none;
+  overflow-y: hidden;
 }
 .btn-a:hover {
   background: #d8972e;
   color: #fff;
+  text-decoration: none;
 }

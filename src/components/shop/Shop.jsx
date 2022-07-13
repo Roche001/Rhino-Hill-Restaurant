@@ -524,7 +524,7 @@ const Shop = () => {
                 <GrStar />
                 <GrStar />
               </div>
-              <div className="shop-button row">
+              <div className="shop-button">
                 <a href="#button" className="shop-btn">
                   {" "}
                   <span>$5.50</span>
