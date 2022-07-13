@@ -202,7 +202,11 @@ const Shop = () => {
             </div>
             <div className="shop-items col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
               <div className="shop-img">
-                <img src="./assets/drink2.jpeg" alt="j" />
+                <img
+                  className="d-block w-100"
+                  src="./assets/drink2.jpeg"
+                  alt="j"
+                />
               </div>
               <div className="shop-info">
                 <h4>Marple cocktail </h4>
@@ -225,7 +229,11 @@ const Shop = () => {
           <div className="row">
             <div className="shop-items col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
               <div className="shop-img">
-                <img src="./assets/drink3.jpeg" alt="j" />
+                <img
+                  className="d-block w-100"
+                  src="./assets/drink3.jpeg"
+                  alt="j"
+                />
               </div>
               <div className="shop-info">
                 <h4>Mulled Wine </h4>
@@ -246,7 +254,11 @@ const Shop = () => {
             </div>
             <div className="shop-items col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
               <div className="shop-img">
-                <img src="./assets/drink4.jpeg" alt="j" />
+                <img
+                  className="d-block w-100"
+                  src="./assets/drink4.jpeg"
+                  alt="j"
+                />
               </div>
               <div className="shop-info">
                 <h4>Watermelon juice </h4>
@@ -267,7 +279,11 @@ const Shop = () => {
             </div>
             <div className="shop-items col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
               <div className="shop-img">
-                <img src="./assets/drink5.jpeg" alt="j" />
+                <img
+                  className="d-block w-100"
+                  src="./assets/drink5.jpeg"
+                  alt="j"
+                />
               </div>
               <div className="shop-info">
                 <h4>Orange Mojito</h4>
@@ -288,7 +304,11 @@ const Shop = () => {
             </div>
             <div className="shop-items col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
               <div className="shop-img">
-                <img src="./assets/drink6.jpeg" alt="j" />
+                <img
+                  className="d-block w-100"
+                  src="./assets/drink6.jpeg"
+                  alt="j"
+                />
               </div>
               <div className="shop-info">
                 <h4>Mulled Wine </h4>
@@ -311,7 +331,11 @@ const Shop = () => {
           <div className="row">
             <div className="shop-items col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
               <div className="shop-img">
-                <img src="./assets/drink7.jpeg" alt="j" />
+                <img
+                  className="d-block w-100"
+                  src="./assets/drink7.jpeg"
+                  alt="j"
+                />
               </div>
               <div className="shop-info">
                 <h4>Cream Shake </h4>
@@ -332,7 +356,11 @@ const Shop = () => {
             </div>
             <div className="shop-items col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
               <div className="shop-img">
-                <img src="./assets/drink8.jpeg" alt="j" />
+                <img
+                  className="d-block w-100"
+                  src="./assets/drink8.jpeg"
+                  alt="j"
+                />
               </div>
               <div className="shop-info">
                 <h4>Strawberry Colada</h4>
@@ -353,7 +381,11 @@ const Shop = () => {
             </div>
             <div className="shop-items col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
               <div className="shop-img">
-                <img src="./assets/meal1.png" alt="j" />
+                <img
+                  className="d-block w-100"
+                  src="./assets/meal1.png"
+                  alt="j"
+                />
               </div>
               <div className="shop-info">
                 <h4>Garlic Butter Steak </h4>
@@ -374,7 +406,11 @@ const Shop = () => {
             </div>
             <div className="shop-items col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
               <div className="shop-img">
-                <img src="./assets/meal6.jpeg" alt="j" />
+                <img
+                  className="d-block w-100"
+                  src="./assets/meal6.jpeg"
+                  alt="j"
+                />
               </div>
               <div className="shop-info">
                 <h4>Chicken Barbecue</h4>
@@ -397,7 +433,11 @@ const Shop = () => {
           <div className="row">
             <div className="shop-items col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
               <div className="shop-img">
-                <img src="./assets/meal2.jpeg" alt="j" />
+                <img
+                  className="d-block w-100"
+                  src="./assets/meal2.jpeg"
+                  alt="j"
+                />
               </div>
               <div className="shop-info">
                 <h4>Lo Mein Noodles </h4>
@@ -418,7 +458,11 @@ const Shop = () => {
             </div>
             <div className="shop-items col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
               <div className="shop-img">
-                <img src="./assets/meal3.jpeg" alt="j" />
+                <img
+                  className="d-block w-100"
+                  src="./assets/meal3.jpeg"
+                  alt="j"
+                />
               </div>
               <div className="shop-info">
                 <h4>Kor Spicy Rice Cake </h4>
@@ -439,7 +483,11 @@ const Shop = () => {
             </div>
             <div className="shop-items col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
               <div className="shop-img">
-                <img src="./assets/meal4.png" alt="j" />
+                <img
+                  className="d-block w-100"
+                  src="./assets/meal4.png"
+                  alt="j"
+                />
               </div>
               <div className="shop-info">
                 <h4>Jajangmyeon Beans</h4>
@@ -460,7 +508,11 @@ const Shop = () => {
             </div>
             <div className="shop-items col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
               <div className="shop-img">
-                <img src="./assets/meal5.png" alt="j" />
+                <img
+                  className="d-block w-100"
+                  src="./assets/meal5.png"
+                  alt="j"
+                />
               </div>
               <div className="shop-info">
                 <h4>m Fried Chicken Bites </h4>
