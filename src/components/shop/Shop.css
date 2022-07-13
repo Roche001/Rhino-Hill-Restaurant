@@ -63,6 +63,9 @@
   transition: 400ms;
   overflow-y: hidden;
 }
+.shop-button span {
+  overflow-y: hidden;
+}
 .shop-button a:hover span {
   display: none;
   overflow-y: hidden;
