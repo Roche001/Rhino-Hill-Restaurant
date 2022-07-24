@@ -269,7 +269,8 @@ p {
   overflow-y: hidden;
 }
 
-.chefs {
+.individual-chefs {
+  outline: 2px solix #b95205;
 }
 
 .img-one {
