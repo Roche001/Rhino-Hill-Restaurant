@@ -1,30 +1,9 @@
 import React from "react";
 import "./Top.css";
-import { useState } from "react";
+
 import { Link } from "react-router-dom";
 import { Container, Nav, Navbar } from "react-bootstrap";
-import $ from "jquery";
 const Top = () => {
-  const [activeNav, setActiveNav] = useState("/");
-
-  $(".button").click(function (e) {
-    e.preventDefault();
-    setContent($(this));
-    localStorage.setItem("active-container", $(this).data("rel"));
-  });
-
-  localStorage.getItem("active-container") &&
-    setContent(
-      $('.button[data-rel="' + localStorage.getItem("active-container") + '"]')
-    );
-
-  function setContent($el) {
-    $(".button").removeClass("active");
-    $(".container").hide();
-
-    $el.addClass("active");
-    $($el.data("rel")).show();
-  }
   return (
     <Navbar collapseOnSelect expand="lg" bg="#f57f1" variant="dark">
       <Container>
@@ -39,63 +18,33 @@ const Top = () => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link>
-                <Link
-                  to="/"
-                  className="link"
-                  onClick={() => setActiveNav("/")}
-                  id={activeNav === "/" ? "active" : ""}
-                >
+                <Link to="/" className="link">
                   <li>Home</li>
                 </Link>
               </Nav.Link>
               <Nav.Link>
-                <Link
-                  to="/Popular"
-                  className="link"
-                  onClick={() => setActiveNav("/Popular")}
-                  id={activeNav === "/Popular" ? "active" : ""}
-                >
+                <Link to="/Popular" className="link">
                   {" "}
                   <li>Popular</li>
                 </Link>
               </Nav.Link>
               <Nav.Link>
-                <Link
-                  to="/Shop"
-                  className="link"
-                  onClick={() => setActiveNav("/Shop")}
-                  id={activeNav === "/Shop" ? "active" : ""}
-                >
+                <Link to="/Shop" className="link">
                   <li>Shop</li>
                 </Link>
               </Nav.Link>
               <Nav.Link>
-                <Link
-                  to="/Reservation"
-                  className="link"
-                  onClick={() => setActiveNav("/Reservation")}
-                  id={activeNav === "/Reservation" ? "active" : ""}
-                >
+                <Link to="/Reservation" className="link">
                   <li>Reservation</li>
                 </Link>
               </Nav.Link>
               <Nav.Link>
-                <Link
-                  to="/Account"
-                  className="link"
-                  onClick={() => setActiveNav("/Account")}
-                  id={activeNav === "/Account" ? "active" : ""}
-                >
+                <Link to="/Account" className="link">
                   <li>Account</li>
                 </Link>
               </Nav.Link>
               <Nav.Link>
-                <Link
-                  to="/Contacts"
-                  className="link"
-                  onClick={() => setActiveNav("/Contacts")}
-                  id={activeNav === "/Contacts" ? "active" : ""}
-                >
+                <Link to="/Contacts" className="link">
                   <li>Contacts</li>
                 </Link>
               </Nav.Link>
