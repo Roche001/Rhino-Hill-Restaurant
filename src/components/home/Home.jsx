@@ -14,54 +14,17 @@ const Home = () => {
   });
   return (
     <section id="Home" className="container-fluid" data-aos="zoom-in-up">
-      <div
-        id="carouselExampleFade"
-        class="carousel slide carousel-fade"
-        data-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div className="carousel-item active">
-            <img
-              className="d-block w-100"
-              src="./assets/slider1.jpg"
-              alt="First slide"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              className="d-block w-100"
-              src="./assets/slider2.jpg"
-              alt="Second slide"
-            />
-          </div>
-
-          <div className="carousel-item">
-            <img
-              className="d-block w-100"
-              src="./assets/slider3.jpg"
-              alt="Third slide"
-            />
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-target="#carouselExampleFade"
-          data-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-target="#carouselExampleFade"
-          data-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </button>
-      </div>
+      <Carousel>
+        <Carousel.Item interval={1000} className="sized">
+          <img src="./assets/slider1.jpg" alt="Featured-House" />
+        </Carousel.Item>
+        <Carousel.Item interval={500} className="sized">
+          <img src="./assets/slider2.jpg" alt="Featured-House" />
+        </Carousel.Item>
+        <Carousel.Item interval={500} className="sized">
+          <img src="./assets/slider3.jpg" alt="Featured-House" />
+        </Carousel.Item>
+      </Carousel>
 
       <section id="about">
         <div className="operations">
