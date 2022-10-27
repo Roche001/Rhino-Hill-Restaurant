@@ -1,5 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Lemon&family=Lobster+Two:ital,wght@0,400;0,700;1,700&family=Playball&display=swap");
 
+.carousel-img {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+}
+.carousel-img img {
+  height: 100%;
+  width: 100%;
+}
+.text {
+  position: absolute;
+}
+.text h4 {
+  color: #ffff;
+}
+
 .rhino {
   height: 1.5rem;
   z-index: -1;

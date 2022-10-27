@@ -13,7 +13,7 @@ const Home = () => {
     duration: 2000,
   });
   return (
-    <section id="Home" className="container-fluid" data-aos="zoom-in-up">
+    <section id="Home" data-aos="zoom-in-up">
       <div className="carousel">
         <div className="carousel-img">
           <div className="overlay"></div>
