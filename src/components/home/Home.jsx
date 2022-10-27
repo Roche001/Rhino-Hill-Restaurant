@@ -14,43 +14,21 @@ const Home = () => {
   });
   return (
     <section id="Home" className="container-fluid" data-aos="zoom-in-up">
-      <Carousel>
-        <Carousel.Item interval={1000} className="sized">
-          <img
-            className="d-block w-100"
-            src="./assets/slider1.jpg"
-            alt="First slide"
-          />
-          <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item interval={500} className="sized">
-          <img
-            className="d-block w-100"
-            src="./assets/slider2.jpg"
-            alt="Second slide"
-          />
-          <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item className="sized">
-          <img
-            className="d-block w-100"
-            src="./assets/slider3.jpg"
-            alt="Third slide"
-          />
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-          </Carousel.Caption>
-        </Carousel.Item>
-      </Carousel>
+      <div className="carousel">
+        <div className="carousel-img">
+          <div className="overlay"></div>
+          <img src="./assets/slider1.jpg" alt="slider" />
+          <div className="text">
+            <h4>Hello</h4>
+          </div>
+        </div>{" "}
+        <div className="carousel-img">
+          <img src="./assets/slider2.jpg" alt="slider" />
+        </div>{" "}
+        <div className="carousel-img">
+          <img src="./assets/slider3.jpg" alt="slider" />
+        </div>
+      </div>
       <section className="about">
         <div className="operations">
           <div className="opening">
