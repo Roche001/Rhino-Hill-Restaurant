@@ -17,16 +17,16 @@ const Home = () => {
       <div className="carousel">
         <div className="carousel-img">
           <div className="overlay"></div>
-          <img src="./assets/slider1.jpg" alt="slider" />
+          <img src="./assets/slider1.jpeg" alt="slider" />
           <div className="text">
             <h4>Hello</h4>
           </div>
         </div>{" "}
         <div className="carousel-img">
-          <img src="./assets/slider2.jpg" alt="slider" />
+          <img src="./assets/slider2.jpeg" alt="slider" />
         </div>{" "}
         <div className="carousel-img">
-          <img src="./assets/slider3.jpg" alt="slider" />
+          <img src="./assets/slider3.jpeg" alt="slider" />
         </div>
       </div>
       <section className="about">
