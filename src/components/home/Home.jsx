@@ -16,8 +16,8 @@ const Home = () => {
     <section id="Home" data-aos="zoom-in-up">
       <div className="carousel">
         <div className="carousel-img">
-          <div className="overlay"></div>
           <img src="./assets/slider1.jpeg" alt="slider" />
+          <div className="overlay"></div>
           <div className="text">
             <h4>Hello</h4>
           </div>
