@@ -172,3 +172,11 @@ textarea {
 .weekends h4 {
   color: #fff;
 }
+@media screen and (max-width: 600px) {
+  .picker-a {
+    width: 95%;
+  }
+  .picker {
+    width: 95%;
+  }
+}
