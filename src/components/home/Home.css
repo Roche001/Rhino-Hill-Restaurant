@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lemon&family=Lobster+Two:ital,wght@0,400;0,700;1,700&family=Playball&display=swap");
 
 .carousel-img {
-  height: 100vh;
+  height: 40rem;
   width: 100vw;
   position: relative;
   display: flex;
