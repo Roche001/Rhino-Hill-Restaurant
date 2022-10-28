@@ -33,7 +33,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-
       <section className="about">
         <div className="operations">
           <div className="opening">
@@ -58,7 +57,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section id="Restaurant" className="container-fluid">
+      <section id="Restaurant">
         <div className="restorans-img row">
           <div className="translate col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
             <img className="d-block w-100" src="./assets/rest1.jpg" alt="r" />
@@ -73,9 +72,14 @@ const Home = () => {
             <img className="d-block w-100" src="./assets/rest4.jpg" alt="r" />
           </div>
         </div>
-        <div className="restorans row ">
-          <h4>Our Restorāns</h4>
-          <h5>The Rhino Hill Restaurant </h5>
+      </section>{" "}
+      <div className="burger-container">
+        <div className="burger-page">
+          {" "}
+          <img src="./assets/burger.png" alt="burger" />
+        </div>
+        <div className="burger-text">
+          <h3>Nuestra Historia</h3>
           <p>
             The Rhino Hill Restaurant has been built in the best traditions of
             Mediterranean cuisine, bringing a sunny atmosphere to the with light
@@ -95,7 +99,7 @@ const Home = () => {
             regions.{" "}
           </p>
         </div>
-      </section>
+      </div>
       <section id="deals" className="container-fluid">
         <div className="overlay"></div>
         <div className="weekly-deals row text-center">
