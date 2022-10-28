@@ -18,33 +18,33 @@ const Top = () => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link>
-                <Link to="/" className="link">
+                <Link to="/" className="link color">
                   <li>Home</li>
                 </Link>
               </Nav.Link>
               <Nav.Link>
-                <Link to="/Popular" className="link">
+                <Link to="/Popular" className="link color">
                   {" "}
                   <li>Popular</li>
                 </Link>
               </Nav.Link>
               <Nav.Link>
-                <Link to="/Shop" className="link">
+                <Link to="/Shop" className="link color">
                   <li>Shop</li>
                 </Link>
               </Nav.Link>
               <Nav.Link>
-                <Link to="/Reservation" className="link">
+                <Link to="/Reservation" className="link color">
                   <li>Reservation</li>
                 </Link>
               </Nav.Link>
               <Nav.Link>
-                <Link to="/Account" className="link">
+                <Link to="/Account" className="link color">
                   <li>Account</li>
                 </Link>
               </Nav.Link>
               <Nav.Link>
-                <Link to="/Contacts" className="link">
+                <Link to="/Contacts" className="link color">
                   <li>Contacts</li>
                 </Link>
               </Nav.Link>

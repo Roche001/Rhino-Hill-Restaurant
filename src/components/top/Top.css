@@ -6,7 +6,13 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background: #f57f17;
+  background: transparent;
+  color: #ffff;
+}
+.color li {
+  color: #b95205;
+  font-weight: 800;
+  font-size: 1.2rem;
 }
 .img {
   padding: 2rem;
