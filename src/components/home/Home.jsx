@@ -129,18 +129,46 @@ const Home = () => {
           <div className="menu col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <img src="./assets/menu1.jpg" alt="m" />
             <div className="menu-items">
-              <h4>
-                Garlic Shrimp Pasta <span>$20.5</span>
-              </h4>
+              {" "}
+              <table>
+                <tr>
+                  <th></th>
+                  <th></th>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Garlic Shrimp Pasta</h4>
+                  </td>
+                  <td>
+                    <h4>
+                      <span>$20.5</span>
+                    </h4>
+                  </td>
+                </tr>
+              </table>
               <p>Want a super satisfying, quick and easy dinner.</p>
             </div>
           </div>
           <div className="menu col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
             <img src="./assets/menu2.jpg" alt="m" />
             <div className="menu-items">
-              <h4>
-                Garlic Shrimp Pasta <span>$20.5</span>
-              </h4>
+              <table>
+                <tr>
+                  <th></th>
+                  <th></th>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Garlic Shrimp Pasta</h4>
+                  </td>
+                  <td>
+                    <h4>
+                      <span>$20.5</span>
+                    </h4>
+                  </td>
+                </tr>
+              </table>
+
               <p>Want a super satisfying, quick and easy dinner.</p>
             </div>
           </div>
@@ -149,18 +177,44 @@ const Home = () => {
           <div className="menu col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <img src="./assets/menu3.jpg" alt="m" />
             <div className="menu-items">
-              <h4>
-                Garlic Shrimp Pasta <span>$20.5</span>
-              </h4>
+              <table>
+                <tr>
+                  <th></th>
+                  <th></th>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Garlic Shrimp Pasta</h4>
+                  </td>
+                  <td>
+                    <h4>
+                      <span>$20.5</span>
+                    </h4>
+                  </td>
+                </tr>
+              </table>
               <p>Want a super satisfying, quick and easy dinner.</p>
             </div>
           </div>
           <div className="menu col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <img src="./assets/menu4.jpg" alt="m" />
             <div className="menu-items">
-              <h4>
-                Garlic Shrimp Pasta <span>$20.5</span>
-              </h4>
+              <table>
+                <tr>
+                  <th></th>
+                  <th></th>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Garlic Shrimp Pasta</h4>
+                  </td>
+                  <td>
+                    <h4>
+                      <span>$20.5</span>
+                    </h4>
+                  </td>
+                </tr>
+              </table>
               <p>Want a super satisfying, quick and easy dinner.</p>
             </div>
           </div>

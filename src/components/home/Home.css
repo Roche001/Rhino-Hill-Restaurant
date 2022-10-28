@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lemon&family=Lobster+Two:ital,wght@0,400;0,700;1,700&family=Playball&display=swap");
 
 .carousel-img {
-  height: 60vh;
+  height: 70vh;
   width: 100vw;
   position: relative;
   display: flex;
@@ -9,6 +9,7 @@
   justify-content: center;
   flex-direction: column;
   z-index: 100;
+  overflow-y: hidden;
 }
 .carousel-img img {
   height: 100%;
@@ -191,8 +192,7 @@ p {
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  color: #fff;
-  margin-top: -0.5rem;
+  color: #ffff;
   overflow-y: hidden;
 }
 #deals::after {
@@ -228,16 +228,22 @@ p {
   opacity: 0.4;
   z-index: -1;
 }
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 
 .menu img {
   border-radius: 50%;
+  margin: 0.5rem;
 }
 .menu img:hover {
   border-radius: 30%;
 }
 
 .menu-items h4 span {
-  margin-left: 10rem;
   color: #b95205;
   font-family: "Playball", cursive;
   font-size: 1.3rem;
@@ -248,7 +254,6 @@ p {
 }
 
 .menu-items p {
-  /* margin-right: 10rem; */
   color: #fff;
 }
 .reserve {
@@ -301,7 +306,11 @@ p {
   align-items: center;
   flex-direction: column;
   width: 15rem;
-  height: 100%;
+  height: 20rem;
+  transition: 400ms ease-in-out;
+  box-shadow: 0px 8px 30px #424242;
+  margin: 1rem;
+  border-radius: 0.2rem;
 }
 .individual-chef-img {
   height: 10rem;
@@ -336,7 +345,6 @@ p {
   background-image: url("../../images/vector3.jpeg");
   z-index: 10;
   overflow-y: hidden;
-  margin: 1rem;
 }
 
 .test-header {
