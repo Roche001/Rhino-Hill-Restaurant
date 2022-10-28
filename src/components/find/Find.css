@@ -1,83 +1,60 @@
-#about-us {
-  background: #424242;
-  padding-bottom: 2rem;
-  margin-bottom: -60rem;
-}
-
-.hill-one {
+.find-card {
+  background: #020c1b;
+  color: #ffff;
   display: flex;
-  flex-direction: row;
-
   align-items: center;
   justify-content: center;
-  padding-top: 8rem;
+  padding: 2rem;
 }
-.tweet {
-  margin-top: -2rem;
+.first-card {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
-.tweet h3 {
-  color: #fff;
-  font-weight: 900;
+.first-card h4 {
+  color: #ffff;
+  font-family: "Playball", cursive;
 }
-.tweet p {
-  color: #ea9f41;
+.first-card h5 {
+  color: #ffff;
 }
-.tweet span {
-  color: #fff;
+.find-social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.tweet-icon {
+.find-social h4 {
+  color: #ffff;
+  font-family: "Playball", cursive;
+}
+.find-social p {
+  color: #ffff;
+  text-align: center;
+}
+.social-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.social-one a {
+  color: #ffff;
+  margin: 0.5rem;
+  transition: 400ms ease-in-out;
+}
+.social-one a:hover {
   color: #b95205;
-  font-size: 2rem;
-  transition: 400ms;
-}
-.tweet-icon:hover {
-  color: #ea9f41;
   transform: scale(1.2);
 }
-.social {
+.find-reserv {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  justify-content: center;
-  padding-bottom: 2rem;
 }
-.social h3 {
-  color: #ea9f41;
-  font-weight: 600;
-}
-.social-a {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 2rem;
-  color: #fff;
-  padding: 2rems;
-}
-
-.face {
-  transition: 400ms;
-}
-.face:hover {
-  transform: scale(2);
-  color: #b95205;
-}
-.form {
-  width: 25rem;
-  background: #000;
-}
-.form h3 {
-  color: #ea9f41;
-  font-weight: 600;
-}
-.form form input {
-  background: #f7f7f7;
-  color: #070707;
-  font-weight: 600;
-  width: 20rem;
-  height: 3rem;
-  border-radius: 0.2rem;
+.find-reserv h4 {
+  font-family: "Playball", cursive;
+  color: #ffff;
 }

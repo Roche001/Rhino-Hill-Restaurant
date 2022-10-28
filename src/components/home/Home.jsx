@@ -282,10 +282,10 @@ const Home = () => {
               </div>
               <div className="comment">
                 <p>
-                  De verdad... ¿qué hay de lo que no te guste Rhino Hill <br />
-                  Restaurant? El servicio es excelente, el ambiente es <br />
-                  insuperable y la comida es absolutamente increíble. <br />
-                  Nunca decepciones en ningún momento. de dia o de noche!
+                  De verdad... ¿qué hay de lo que no te guste Rhino Hill
+                  Restaurant? El servicio es excelente, el ambiente es
+                  insuperable y la comida es absolutamente increíble. Nunca
+                  decepciones en ningún momento. de dia o de noche!
                 </p>
               </div>
               <div className="stars">
@@ -308,12 +308,9 @@ const Home = () => {
               <div className="comment">
                 <p>
                   Thank you Again @ Rhino Hill Restaurant team for outdoing{" "}
-                  <br />
                   yourselves yet again.We really enjoyed the breakfast buffet as
-                  <br />
-                  requested last week . Great organisation and keen service .{" "}
-                  <br />
-                  My team and I say thank you. We will be back again and again.
+                  requested last week . Great organisation and keen service . My
+                  team and I say thank you. We will be back again and again.
                 </p>
               </div>
               <div className="stars">
@@ -341,13 +338,9 @@ const Home = () => {
               <div className="comment">
                 <p>
                   Food is delicious we were fortunate enough to visit Nairobi
-                  and <br />
-                  found this hotel to be the best by far.. our server Euphema is{" "}
-                  <br />
-                  courteous, efficient and helpful lady .Good food selection and{" "}
-                  <br />
-                  sparkling wine also we will be back again we going to
-                  recommend her again.
+                  and found this hotel to be the best by far.. our server
+                  Euphema is courteous.Good food selection and sparkling wine
+                  also we will be back again we going to recommend her again.
                 </p>
               </div>
               <div className="stars">
@@ -370,11 +363,8 @@ const Home = () => {
               <div className="comment">
                 <p>
                   The restaurant has a way of Making Guests come back for more,{" "}
-                  <br />
                   My Family felt wanted here, From how our Reservation was taken{" "}
-                  <br />
                   to how the service was delivered its always amazing - the{" "}
-                  <br />
                   consistency on food and service delivery.
                 </p>
               </div>

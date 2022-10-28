@@ -28,9 +28,7 @@
   font-size: 1rem;
   margin-top: -4rem;
 }
-.nav-items {
-  position: right;
-}
+
 .link {
   text-decoration: none;
   color: #020c1b;
@@ -44,4 +42,11 @@
   background: #b95205;
   color: #fff;
   border-radius: 0.5rem;
+}
+.link-one {
+  color: #ffff;
+  text-decoration: none;
+}
+.link-one:hover {
+  color: #ffff;
 }

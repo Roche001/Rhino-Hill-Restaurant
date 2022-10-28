@@ -15,7 +15,7 @@ const Shop = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
-      <div className="shop-bg container-fluid" data-aos="zoom-in-up">
+      <div className="shop-bg container-fluid nopadding" data-aos="zoom-in-up">
         <div className="shop-bg-bg">
           <div className="bg">
             <h3>Our Shop</h3>
