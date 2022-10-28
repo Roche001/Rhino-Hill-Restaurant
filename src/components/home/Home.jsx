@@ -1,10 +1,10 @@
 import React from "react";
 import "./Home.css";
-import Carousel from "react-bootstrap/Carousel";
 import { CgArrowsHAlt } from "react-icons/cg";
 import { GrStar } from "react-icons/gr";
 import { CgTag } from "react-icons/cg";
 import { FaQuoteLeft } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -17,16 +17,41 @@ const Home = () => {
       <div className="carousel">
         <div className="carousel-img">
           <img src="./assets/slider1.jpeg" alt="slider" />
-          <div className="overlay"></div>
           <div className="text">
-            <h4>Hello</h4>
-          </div>
-        </div>{" "}
+            <h5>Welcome to</h5>
+            <h2>Rhino Hill Restaurant</h2>{" "}
+            <div className="button-text">
+              <Link to="./Reservation" className="link-one">
+                <h6>Weekly Deals</h6>
+              </Link>
+            </div>
+          </div>{" "}
+          <div className="high-rise"></div>
+        </div>
         <div className="carousel-img">
+          {" "}
           <img src="./assets/slider2.jpeg" alt="slider" />
-        </div>{" "}
+          <div className="text">
+            <h5>Welcome to</h5>
+            <h2>Rhino Hill Restaurant</h2>{" "}
+            <div className="button-text">
+              <a href="#deals">Weekly Deals</a>
+            </div>
+          </div>
+          <div className="high-rise"></div>
+        </div>
         <div className="carousel-img">
           <img src="./assets/slider3.jpeg" alt="slider" />
+          <div className="text">
+            <h5>Welcome to</h5>
+            <h2>Rhino Hill Restaurant</h2>{" "}
+            <div className="button-text">
+              <Link to="./Shop" className="link-one">
+                <h6>Place an Order</h6>
+              </Link>
+            </div>
+          </div>
+          <div className="high-rise"></div>
         </div>
       </div>
       <section className="about">

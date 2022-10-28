@@ -5,28 +5,69 @@
   width: 100vw;
   position: relative;
   display: flex;
-  justify-content: center;
   align-items: center;
-  background-position: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 100;
 }
 .carousel-img img {
   height: 100%;
   width: 100%;
 }
 .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   position: absolute;
+  top: 22rem;
+  z-index: 10;
 }
-.text h4 {
+.text h5 {
+  color: #b95205;
+  font-family: "Satisfy", cursive;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.text h2 {
   color: #ffff;
+  text-transform: uppercase;
+  font-weight: 800;
 }
-.overlay {
+.button-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 12rem;
+  height: 3rem;
+  text-align: center;
+  background: #b95205;
+  border-radius: 0.5rem;
+}
+.button-text h6 {
+  color: #ffff;
+  font-weight: 900;
+}
+.button-text a {
+  text-decoration: none;
+  color: #ffff;
+  font-size: 1.2rem;
+}
+.link-one {
+  text-decoration: none;
+}
+.link-one:hover {
+  text-decoration: none;
+}
+.high-rise {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: 0.8;
-  background: #000;
+  opacity: 1;
+  background: #020c1b;
+  z-index: -1;
 }
 .rhino {
   height: 1.5rem;
