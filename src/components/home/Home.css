@@ -1,14 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Lemon&family=Lobster+Two:ital,wght@0,400;0,700;1,700&family=Playball&display=swap");
 
 .carousel-img {
+  background: linear-gradient(to bottom, rgba(37, 34, 34, 0.5), #020c1b),
+    url("../../images/slider1.jpeg");
   height: 100vh;
   width: 100vw;
   position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  z-index: 100;
+
   overflow-y: hidden;
 }
 .carousel-img img {
@@ -101,16 +107,13 @@ p {
   color: #ea9f41;
   font-family: "Lobster Two", cursive;
 }
-.operations {
+.blue-container {
+  background: linear-gradient(to top, rgba(3, 3, 3, 0.5), #020c1b);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: #616161;
-  border: 4px dotted #b95205;
-  overflow-y: hidden;
 }
-
 .opening {
   text-align: center;
 }
@@ -200,6 +203,7 @@ p {
 }
 .burger-text p {
   text-align: start;
+  color: #ffff;
 }
 
 .riviera p {
@@ -448,9 +452,16 @@ p {
 }
 @media screen and (max-width: 600px) {
   .burger-container {
+    background: linear-gradient(to bottom, rgba(37, 34, 34, 0.5), #b95205),
+      url("../../images/burger.png");
+    background-position: center;
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     height: 100%;
+  }
+  .burger-page {
+    display: none;
   }
   .burger-text {
     width: 100%;

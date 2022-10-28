@@ -15,9 +15,8 @@ const Home = () => {
   });
   return (
     <section id="Home" data-aos="zoom-in-up">
-      <div interval={1000} className="carousel-img">
+      <div className="carousel-img">
         <div className="high-rise"></div>
-        <img src="./assets/slider1.jpeg" alt="slider" />
         <div className="text">
           <h5>Fast Food Restaurant </h5>
           <p>
@@ -33,28 +32,26 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <section className="about">
-        <div className="operations">
-          <div className="opening">
-            <h3>OPENING HOURS </h3>
-            <h5>Call For Reservations </h5>
+      <section className="blue-container">
+        <div className="opening">
+          <h3>OPENING HOURS </h3>
+          <h5>Call For Reservations </h5>
+        </div>
+        <div className="days">
+          <div className="monday">
+            <h3>Monday to Friday</h3>
+            <h4>09:00</h4>
+            <h4>22:00</h4>
           </div>
-          <div className="days">
-            <div className="monday">
-              <h3>Monday to Friday</h3>
-              <h4>09:00</h4>
-              <h4>22:00</h4>
-            </div>
-            <div className="weekends">
-              <h3>Weekends</h3>
-              <h4>11:00</h4>
-              <h4>19:00</h4>
-            </div>
+          <div className="weekends">
+            <h3>Weekends</h3>
+            <h4>11:00</h4>
+            <h4>19:00</h4>
           </div>
+        </div>
 
-          <div className="number">
-            <h4>+8(876)09876543</h4>
-          </div>
+        <div className="number">
+          <h4>+8(876)09876543</h4>
         </div>
       </section>
       <section id="Restaurant">
