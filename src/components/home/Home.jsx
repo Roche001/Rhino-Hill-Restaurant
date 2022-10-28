@@ -16,20 +16,7 @@ const Home = () => {
   return (
     <section id="Home" data-aos="zoom-in-up">
       <Carousel className="carousel">
-        <Carousel.Item interval={1000} className="sized carousel-img">
-          <div className="high-rise"></div>
-          <img src="./assets/slider1.jpeg" alt="slider" />
-          <div className="text">
-            <h5>Welcome to</h5>
-            <h2>Rhino Hill Restaurant</h2>{" "}
-            <div className="button-text">
-              <Link to="./Reservation" className="link-one">
-                <h6>Weekly Deals</h6>
-              </Link>
-            </div>
-          </div>
-        </Carousel.Item>
-        <Carousel.Item interval={500} className="sized carousel-img">
+        <Carousel.Item interval={500} className="carousel-img">
           <div className="high-rise"></div>
           <img src="./assets/slider2.jpeg" alt="slider" />
           <div className="text">
@@ -40,7 +27,7 @@ const Home = () => {
             </div>
           </div>
         </Carousel.Item>
-        <Carousel.Item interval={500} className="sized carousel-img">
+        <Carousel.Item interval={500} className="carousel-img">
           <div className="high-rise"></div>
           <img src="./assets/slider3.jpeg" alt="slider" />
           <div className="text">
@@ -49,6 +36,19 @@ const Home = () => {
             <div className="button-text">
               <Link to="./Shop" className="link-one">
                 <h6>Place an Order</h6>
+              </Link>
+            </div>
+          </div>
+        </Carousel.Item>
+        <Carousel.Item interval={1000} className="carousel-img">
+          <div className="high-rise"></div>
+          <img src="./assets/slider1.jpeg" alt="slider" />
+          <div className="text">
+            <h5>Welcome to</h5>
+            <h2>Rhino Hill Restaurant</h2>{" "}
+            <div className="button-text">
+              <Link to="./Reservation" className="link-one">
+                <h6>Make a Reservation</h6>
               </Link>
             </div>
           </div>
