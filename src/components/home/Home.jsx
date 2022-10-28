@@ -16,11 +16,7 @@ const Home = () => {
   return (
     <section id="Home" data-aos="zoom-in-up">
       <Carousel className="carousel">
-        <Carousel.Item
-          interval={1000}
-          className="sized"
-          className="carousel-img"
-        >
+        <Carousel.Item interval={1000} className="sized carousel-img">
           <img src="./assets/slider1.jpeg" alt="slider" />
           <div className="text">
             <h5>Welcome to</h5>
@@ -33,11 +29,7 @@ const Home = () => {
           </div>{" "}
           <div className="high-rise"></div>
         </Carousel.Item>
-        <Carousel.Item
-          interval={1000}
-          className="sized"
-          className="carousel-img"
-        >
+        <Carousel.Item interval={1000} className="sized carousel-img">
           {" "}
           <img src="./assets/slider2.jpeg" alt="slider" />
           <div className="text">
@@ -49,11 +41,7 @@ const Home = () => {
           </div>
           <div className="high-rise"></div>
         </Carousel.Item>
-        <Carousel.Item
-          interval={1000}
-          className="sized"
-          className="carousel-img"
-        >
+        <Carousel.Item interval={1000} className="sized carousel-img">
           <img src="./assets/slider3.jpeg" alt="slider" />
           <div className="text">
             <h5>Welcome to</h5>
