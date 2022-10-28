@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import Carousel from "react-bootstrap/Carousel";
 import { CgArrowsHAlt } from "react-icons/cg";
 import { GrStar } from "react-icons/gr";
 import { CgTag } from "react-icons/cg";
@@ -14,8 +15,12 @@ const Home = () => {
   });
   return (
     <section id="Home" data-aos="zoom-in-up">
-      <div className="carousel">
-        <div className="carousel-img">
+      <Carousel className="carousel">
+        <Carousel.Item
+          interval={1000}
+          className="sized"
+          className="carousel-img"
+        >
           <img src="./assets/slider1.jpeg" alt="slider" />
           <div className="text">
             <h5>Welcome to</h5>
@@ -27,8 +32,12 @@ const Home = () => {
             </div>
           </div>{" "}
           <div className="high-rise"></div>
-        </div>
-        <div className="carousel-img">
+        </Carousel.Item>
+        <Carousel.Item
+          interval={1000}
+          className="sized"
+          className="carousel-img"
+        >
           {" "}
           <img src="./assets/slider2.jpeg" alt="slider" />
           <div className="text">
@@ -39,8 +48,12 @@ const Home = () => {
             </div>
           </div>
           <div className="high-rise"></div>
-        </div>
-        <div className="carousel-img">
+        </Carousel.Item>
+        <Carousel.Item
+          interval={1000}
+          className="sized"
+          className="carousel-img"
+        >
           <img src="./assets/slider3.jpeg" alt="slider" />
           <div className="text">
             <h5>Welcome to</h5>
@@ -52,8 +65,9 @@ const Home = () => {
             </div>
           </div>
           <div className="high-rise"></div>
-        </div>
-      </div>
+        </Carousel.Item>
+      </Carousel>
+
       <section className="about">
         <div className="operations">
           <div className="opening">
@@ -116,7 +130,6 @@ const Home = () => {
           </p>
         </div>
       </section>
-
       <section id="deals" className="container-fluid">
         <div className="overlay"></div>
         <div className="weekly-deals row text-center">
