@@ -152,7 +152,22 @@ p {
 .weekends h4 {
   color: #fff;
 }
-
+#Restaurant h3 {
+  text-align: center;
+  color: #b95205;
+  font-family: "Playball", cursive;
+  font-size: 2rem;
+}
+.restorans-img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.translate {
+  width: 20rem;
+  margin: 1rem;
+}
 .burger-container {
   background: linear-gradient(to bottom, rgba(37, 34, 34, 0.5), #b95205);
   display: flex;
@@ -181,13 +196,10 @@ p {
   font-family: "Playball", cursive;
   font-size: 3rem;
   overflow-y: hidden;
+  color: #b95205;
 }
 .burger-text p {
   text-align: start;
-}
-.translate {
-  transition: 400ms;
-  padding: 0.5rem;
 }
 
 .riviera p {
