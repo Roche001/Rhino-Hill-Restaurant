@@ -1,6 +1,6 @@
 .shop-bg-bg {
   background-image: url("../../images/The\ Prince\ of\ Merewether.png");
-  height: 30vh;
+  height: 40vh;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -10,7 +10,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  justify-items: center;
+  position: relative;
 }
 .bg {
   margin-top: 3rem;
@@ -148,8 +148,8 @@
 }
 .cart {
   position: absolute;
-  top: 10;
-  margin-left: 80rem;
+  top: 40%;
+  right: 10%;
 }
 .cart h3 {
   color: #ffff;
