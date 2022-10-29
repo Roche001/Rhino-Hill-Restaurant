@@ -36,10 +36,12 @@ const Find = () => {
       <div className="find-social  col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12">
         <h4>Rhino Hill Restaurant</h4>
         <p>
-          Went for dinner with a few friends a couple of weeks ago. The ambience
-          is fantastic, the food was excellent and
-          <span>the staff were extremely friendly</span>. I’d definitely
-          recommend it.
+          Went for dinner with a few friends a couple of weeks ago.
+          <span>
+            The ambience is fantastic, the food was excellent and the staff were
+            extremely friendly
+          </span>
+          . I’d definitely recommend it.
         </p>
         <div className="social-one">
           <a href="www.facebook.com">
