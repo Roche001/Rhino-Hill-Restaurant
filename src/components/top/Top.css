@@ -6,11 +6,11 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background: transparent;
+  background: #b95205;
   color: #ffff;
 }
 .color li {
-  color: #b95205;
+  color: #ffff;
   font-weight: 800;
   font-size: 1.2rem;
 }
@@ -37,7 +37,9 @@
 .link:hover {
   color: #fff;
 }
-
+.me-auto {
+  padding-left: 2rem;
+}
 #active {
   background: #b95205;
   color: #fff;
