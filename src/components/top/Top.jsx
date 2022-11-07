@@ -8,13 +8,12 @@ import { Link } from "react-router-dom";
 import { AiOutlineBars } from "react-icons/ai";
 const style = {
   position: "absolute",
-  top: "29%",
+  top: "29.5%",
   left: "50%",
   transform: "translate(-50%, -50%)",
   width: "99%",
   height: "30vh",
-  bgcolor: "#b95205",
-  boxShadow: 24,
+
   border: "2px solid #000",
 
   p: 4,

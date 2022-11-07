@@ -48,10 +48,10 @@
 }
 .nav-mode {
   width: 100%;
-  background: #b95205;
+  background: linear-gradient(to bottom, rgba(59, 56, 56, 0.5), #1a0f07);
 }
 .mean h5 {
-  color: #020c1b;
+  color: #ffff;
   font-size: 1.2rem;
   font-weight: 600;
 }
