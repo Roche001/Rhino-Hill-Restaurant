@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lemon&family=Lobster+Two:ital,wght@0,400;0,700;1,700&family=Playball&display=swap");
 .account-header {
   background-image: url("../../images/account.jpeg");
-  height: 30vh;
+  height: 20vh;
   background-repeat: repeat;
   display: flex;
   flex-direction: column;

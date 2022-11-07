@@ -55,6 +55,9 @@
   font-size: 1.2rem;
   font-weight: 600;
 }
+.mean h5:hover {
+  color: #ffff;
+}
 @media screen and (max-width: 980px) {
   .head-bar {
     display: block;
