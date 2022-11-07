@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemon&family=Lobster+Two:ital,wght@0,400;0,700;1,700&family=Playball&display=swap");
 .account-header {
   background-image: url("../../images/account.jpeg");
   height: 30vh;
@@ -19,4 +20,119 @@
   font-weight: 1000;
   font-family: "Satisfy", cursive;
   font-size: 1.2rem;
+}
+.roche-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50rem;
+  height: 20rem;
+  position: relative;
+  border-radius: 0.5rem;
+  transition: 400ms ease-in-out;
+  cursor: pointer;
+  margin: 0.2rem;
+  border-radius: 3rem 0.5rem;
+}
+.roche-img img {
+  border-radius: 0.5rem;
+  width: 100%;
+  height: 100%;
+}
+
+.roche-one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20rem;
+  width: 30rem;
+  margin: 0.2rem;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  transition: 400ms ease-in-out;
+  cursor: pointer;
+  border-radius: 0.5rem 3rem;
+}
+
+.roche-one img {
+  width: 20rem;
+  height: 20rem;
+}
+.laydown {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.7;
+  background: #000;
+  border-radius: 0.5rem;
+  z-index: 0.1;
+}
+.laydown:hover {
+  opacity: 0.3;
+}
+.laydown-one {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.4;
+  background: #000;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.laydown-one:hover {
+  opacity: 0.6;
+  border-radius: 0.5rem;
+}
+.laydown-one h5 {
+  font-weight: 600;
+  color: #ffff;
+  margin: 1rem;
+}
+.word {
+  position: absolute;
+  text-align: center;
+}
+.word h4 {
+  color: #b95205;
+  font-weight: 800;
+  font-family: "Playball", cursive;
+}
+.word h4:hover {
+  color: #ffff;
+}
+
+.word-one {
+  position: absolute;
+  text-align: center;
+}
+.word-one h4 {
+  color: #ea9f41;
+  font-weight: 800;
+  font-family: "Satisfy", cursive;
+}
+.word-one h4:hover {
+  color: #ffff;
+}
+
+.part-elements {
+  margin: 0.5rem;
+}
+@media screen and (max-width: 1200px) {
+  .roche-one-one {
+    width: 90%;
+  }
+  .roche-img {
+    width: 97%;
+  }
+  .roche-one {
+    width: 44%;
+  }
 }

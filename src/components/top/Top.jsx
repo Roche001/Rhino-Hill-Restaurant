@@ -42,7 +42,7 @@ const Top = () => {
             </Nav.Link>
             <Nav.Link>
               <Link to="/Account" className="link color">
-                <li>Account</li>
+                <li>Gallery</li>
               </Link>
             </Nav.Link>
             <Nav.Link>
