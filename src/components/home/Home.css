@@ -36,6 +36,7 @@
   font-family: "Satisfy", cursive;
   font-size: 2rem;
   font-weight: 700;
+  overflow-y: hidden;
 }
 .text p {
   color: #ffff;
@@ -362,13 +363,16 @@ p {
 
 .chef {
   text-align: center;
+  overflow-y: hidden;
 }
 .chef h3 {
   font-family: "Playball", cursive;
+  overflow-y: hidden;
 }
 .chef h4 {
   font-size: 1rem;
   color: #ea9f41;
+  overflow-y: hidden;
 }
 #testimonials {
   position: relative;
