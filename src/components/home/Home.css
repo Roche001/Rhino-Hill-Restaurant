@@ -3,7 +3,7 @@
 .carousel-img {
   background: linear-gradient(to bottom, rgba(37, 34, 34, 0.5), #020c1b),
     url("../../images/slider1.jpeg");
-  height: 100vh;
+  height: 50vh;
   width: 100vw;
   position: relative;
   background-position: center;
