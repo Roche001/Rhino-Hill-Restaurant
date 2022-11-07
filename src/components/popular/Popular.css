@@ -1,12 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Lemon&family=Lobster+Two:ital,wght@0,400;0,700;1,700&family=Playball&family=Satisfy&display=swap");
 .hot-deals {
   background: url("../../images/concept.jpeg");
-  height: 50vh;
+  height: 20vh;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 10;
   background-position: center;
+  overflow-y: hidden;
 }
 
 .hot-deals h3 {
@@ -27,7 +28,7 @@
 }
 .overlay-a {
   position: absolute;
-  height: 50vh;
+  height: 20vh;
   width: 100%;
   background: #000;
   opacity: 0.4;
@@ -64,13 +65,11 @@
 }
 .dessert {
   background-image: url("../../images/Rum.jpeg");
-  height: 30rem;
+  height: 20vh;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  margin-top: 1rem;
   background-size: cover;
-  margin-top: 1rem;
 }
 
 .dessert-one {
@@ -78,7 +77,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 10rem;
 }
 .dessert-one h2 {
   color: #fff;
@@ -134,7 +132,7 @@
 }
 .wine {
   background-image: url("../../images/wine.jpeg");
-  height: 15rem;
+  height: 20vh;
   width: 100%;
   background-size: cover;
   background-attachment: fixed;
@@ -145,7 +143,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 10rem;
 }
 .wine-one h2 {
   color: #fff;
