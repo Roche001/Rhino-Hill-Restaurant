@@ -169,8 +169,14 @@ p {
   justify-content: center;
 }
 .translate {
-  width: 20rem;
-  margin: 1rem;
+  width: 30rem;
+  margin-bottom: 0.2rem;
+  overflow: hidden;
+}
+.translate img {
+  border-radius: 0.9rem;
+  width: 100%;
+  height: 100%;
 }
 .burger-container {
   background: linear-gradient(to bottom, rgba(37, 34, 34, 0.5), #b95205);
@@ -178,17 +184,15 @@ p {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  /* height: 80vh; */
 }
 .burger-page {
   width: 45%;
-  height: 40rem;
   overflow-y: hidden;
 }
 .burger-page img {
   animation: rotation 13s infinite linear;
-  width: 100%;
-  height: 100%;
+  width: 40rem;
+  height: 40rem;
 }
 
 .burger-text {
@@ -459,7 +463,7 @@ p {
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(359deg);
+    transform: rotate(360deg);
   }
 }
 @media screen and (max-width: 600px) {
@@ -488,5 +492,8 @@ p {
 
   .individual-chefs {
     width: 90%;
+  }
+  .translate {
+    width: 95%;
   }
 }

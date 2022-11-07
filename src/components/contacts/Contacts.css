@@ -24,8 +24,7 @@
   font-weight: 700;
   font-family: "Playball", cursive;
 }
-.contact-info {
-}
+
 .contact-info-one {
   display: flex;
   flex-direction: column;
@@ -40,8 +39,7 @@
   display: flex;
   justify-content: space-evenly;
 }
-.contact-info-two {
-}
+
 .info-option-one {
   display: flex;
   flex-direction: column;

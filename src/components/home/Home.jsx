@@ -74,7 +74,7 @@ const Home = () => {
       <div className="burger-container">
         <div className="burger-page">
           {" "}
-          <img src="./assets/burger.png" alt="burger" />
+          <img src="./assets/specials-1.png" alt="burger" />
         </div>
         <div className="burger-text">
           <h3>Nuestra Historia</h3>
@@ -113,6 +113,8 @@ const Home = () => {
               {" "}
               <table>
                 <tr>
+                  <th></th>
+                  <th></th>
                   <th></th>
                   <th></th>
                 </tr>

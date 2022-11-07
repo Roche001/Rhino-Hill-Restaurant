@@ -17,15 +17,12 @@ const Contacts = () => {
   const MapWithAMarker = withScriptjs(
     withGoogleMap((props) => (
       <GoogleMap
-        defaultZoom={3}
+        defaultZoom={15}
         defaultCenter={{ lat: -1.2306616792179152, lng: 36.84835920697511 }}
       >
         <Marker
           position={{ lat: -1.2306616792179152, lng: 36.84835920697511 }}
         />
-        <Marker position={{ lat: -25.764397, lng: 28.212818 }} />
-
-        <Marker position={{ lat: 20.207623, lng: -87.464401 }} />
       </GoogleMap>
     ))
   );
