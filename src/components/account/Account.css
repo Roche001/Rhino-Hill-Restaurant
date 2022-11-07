@@ -15,39 +15,8 @@
 }
 
 .account-header p {
-  color: #c16514;
+  color: #ffff;
   font-weight: 1000;
   font-family: "Satisfy", cursive;
   font-size: 1.2rem;
-}
-.info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-items: center;
-  justify-content: center;
-  padding: 4rem;
-  gap: 2rem;
-}
-
-.group {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  justify-items: center;
-  gap: 1rem;
-  width: 30rem;
-  box-shadow: 10px 5px 5px #000, -1em 0 0.4em #000;
-}
-.button {
-  background: #b4903c;
-  height: 2rem;
-  width: 10rem;
-  border-radius: 0.3rem;
-  color: #fff;
-}
-.forms {
-  margin-right: 2rem;
-  margin-left: 2rem;
 }
