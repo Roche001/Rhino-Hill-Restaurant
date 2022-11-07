@@ -468,8 +468,8 @@ p {
 }
 @media screen and (max-width: 600px) {
   .burger-container {
-    background: linear-gradient(to bottom, rgba(37, 34, 34, 0.5), #b95205),
-      url("../../images/burger.png");
+    background: linear-gradient(to bottom, rgba(37, 34, 34, 0.5), #3f2715),
+      url("../../images/slider1.jpeg");
     background-position: center;
     background-attachment: fixed;
     display: flex;
@@ -477,13 +477,25 @@ p {
     height: 100%;
   }
   .burger-page {
-    display: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100%;
+  }
+  .burger-page img {
+    width: 80%;
+    height: 85%;
   }
   .burger-text {
     width: 100%;
   }
   .burger-text p {
     text-align: center;
+    color: #ffff;
+  }
+  .burger-text h3 {
+    color: #ffff;
   }
   .text {
     width: 90%;
