@@ -17,6 +17,7 @@
 
   overflow-y: hidden;
 }
+
 .carousel-img img {
   height: 100%;
   width: 100%;
@@ -481,9 +482,10 @@ p {
     text-align: center;
   }
   .text {
-    margin-top: 15rem;
     width: 90%;
+    overflow-x: hidden;
   }
+
   .individual-chefs {
     width: 90%;
   }
