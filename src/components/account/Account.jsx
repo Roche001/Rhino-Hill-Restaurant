@@ -133,6 +133,42 @@ const Account = () => {
               />
             </div>
           </div>
+          <div className="omera row">
+            <div className="roche-img nopadding col-xl-6 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+              <div className="laydown"></div>
+              <div className="word">
+                <h4>Garlic Butter Steak </h4>
+              </div>
+              <img
+                className="d-block w-100"
+                src="./assets/meal1.png"
+                alt="bed001"
+              />
+            </div>
+
+            <div className="roche-one nopadding col-xl-3 col-lg-4 col-md-3 col-sm-6 col-xs-12">
+              <div className="laydown"></div>
+              <div className="word-one">
+                <h4>Steak</h4>
+              </div>
+              <img
+                className="d-block w-100"
+                src="./assets/meal2.jpeg"
+                alt="office"
+              />
+            </div>
+            <div className="roche-one nopadding col-xl-3 col-lg-4 col-md-3 col-sm-6 col-xs-12">
+              <div className="laydown"></div>
+              <div className="word-one">
+                <h4>Butter</h4>
+              </div>
+              <img
+                className="d-block w-100"
+                src="./assets/meal3.jpeg"
+                alt="office"
+              />
+            </div>
+          </div>
         </div>
       </section>
     </motion.div>

@@ -13,7 +13,7 @@ const style = {
   transform: "translate(-50%, -50%)",
   width: "99%",
   height: "30vh",
-
+  background: "#813b0a",
   border: "2px solid #000",
 
   p: 4,
