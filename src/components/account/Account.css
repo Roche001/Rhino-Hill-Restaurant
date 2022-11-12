@@ -32,7 +32,7 @@
   transition: 400ms ease-in-out;
   cursor: pointer;
   margin: 0.2rem;
-  border-radius: 3rem 0.5rem;
+  border-radius: 0.8rem;
 }
 .roche-img img {
   border-radius: 0.5rem;
@@ -52,7 +52,7 @@
   overflow: hidden;
   transition: 400ms ease-in-out;
   cursor: pointer;
-  border-radius: 0.5rem 3rem;
+  border-radius: 0.8rem;
 }
 
 .roche-one img {
@@ -133,6 +133,6 @@
     width: 97%;
   }
   .roche-one {
-    width: 44%;
+    width: 48%;
   }
 }

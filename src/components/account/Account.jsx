@@ -124,7 +124,7 @@ const Account = () => {
             <div className="roche-one nopadding col-xl-3 col-lg-4 col-md-3 col-sm-6 col-xs-12">
               <div className="laydown"></div>
               <div className="word-one">
-                <h4>OOur Restaurant in Pretoria</h4>
+                <h4>Our Restaurant in Pretoria</h4>
               </div>
               <img
                 className="d-block w-100"
