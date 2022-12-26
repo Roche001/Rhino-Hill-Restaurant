@@ -30,7 +30,7 @@ const Popular = () => {
           <div className="row">
             <div className="dessert-container-box col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <div className="dessert-img">
-                <img src="./assets/meal1.png" alt="m" />
+                <img src="./assets/meal1.png" alt="m" loading="lazy" />
               </div>
               <div className="dessert-info">
                 <h3>
@@ -41,7 +41,7 @@ const Popular = () => {
             </div>
             <div className="dessert-container-box col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <div className="dessert-img">
-                <img src="./assets/meal2.jpeg" alt="m" />
+                <img src="./assets/meal2.jpeg" alt="m" loading="lazy" />
               </div>
               <div className="dessert-info">
                 <h3>
@@ -54,7 +54,7 @@ const Popular = () => {
           <div className="row">
             <div className="dessert-container-box col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <div className="dessert-img">
-                <img src="./assets/meal3.jpeg" alt="m" />
+                <img src="./assets/meal3.jpeg" alt="m" loading="lazy" />
               </div>
               <div className="dessert-info">
                 <h3>
@@ -65,7 +65,7 @@ const Popular = () => {
             </div>
             <div className="dessert-container-box col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
               <div className="dessert-img">
-                <img src="./assets/meal4.png" alt="m" />
+                <img src="./assets/meal4.png" alt="m" loading="lazy" />
               </div>
               <div className="dessert-info">
                 <h3>
@@ -78,7 +78,7 @@ const Popular = () => {
           <div className="row">
             <div className="dessert-container-box col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <div className="dessert-img">
-                <img src="./assets/meal5.png" alt="m" />
+                <img src="./assets/meal5.png" alt="m" loading="lazy" />
               </div>
               <div className="dessert-info">
                 <h3>
@@ -89,7 +89,7 @@ const Popular = () => {
             </div>
             <div className="dessert-container-box col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <div className="dessert-img">
-                <img src="./assets/meal6.jpeg" alt="m" />
+                <img src="./assets/meal6.jpeg" alt="m" loading="lazy" />
               </div>
               <div className="dessert-info">
                 <h3>
@@ -110,7 +110,7 @@ const Popular = () => {
           <div className="row">
             <div className="dessert-container-box col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <div className="dessert-img">
-                <img src="./assets/des6.jpeg" alt="ds" />
+                <img src="./assets/des6.jpeg" alt="ds" loading="lazy" />
               </div>
               <div className="dessert-info">
                 <h3>
@@ -121,7 +121,7 @@ const Popular = () => {
             </div>
             <div className="dessert-container-box col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <div className="dessert-img">
-                <img src="./assets/des5.jpeg" alt="ds" />
+                <img src="./assets/des5.jpeg" alt="ds" loading="lazy" />
               </div>
               <div className="dessert-info">
                 <h3>
@@ -134,7 +134,7 @@ const Popular = () => {
           <div className="row">
             <div className="dessert-container-box col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <div className="dessert-img">
-                <img src="./assets/des4.jpeg" alt="ds" />
+                <img src="./assets/des4.jpeg" alt="ds" loading="lazy" />
               </div>
               <div className="dessert-info">
                 <h3>
@@ -145,7 +145,7 @@ const Popular = () => {
             </div>
             <div className="dessert-container-box col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <div className="dessert-img">
-                <img src="./assets/des3.jpeg" alt="ds" />
+                <img src="./assets/des3.jpeg" alt="ds" loading="lazy" />
               </div>
               <div className="dessert-info">
                 <h3>
@@ -158,7 +158,7 @@ const Popular = () => {
           <div className="row">
             <div className="dessert-container-box col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <div className="dessert-img">
-                <img src="./assets/des2.jpeg" alt="ds" />
+                <img src="./assets/des2.jpeg" alt="ds" loading="lazy" />
               </div>
               <div className="dessert-info">
                 <h3>
@@ -169,7 +169,7 @@ const Popular = () => {
             </div>
             <div className="dessert-container-box col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <div className="dessert-img">
-                <img src="./assets/des1.jpeg" alt="ds" />
+                <img src="./assets/des1.jpeg" alt="ds" loading="lazy" />
               </div>
               <div className="dessert-info">
                 <h3>
@@ -190,7 +190,7 @@ const Popular = () => {
           <div className="row">
             <div className="drinks-container-box col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <div className="drinks-img">
-                <img src="./assets/drink3.jpeg" alt="ds" />
+                <img src="./assets/drink3.jpeg" alt="ds" loading="lazy" />
               </div>
               <div className="drinks-info">
                 <h3>
@@ -201,7 +201,7 @@ const Popular = () => {
             </div>
             <div className="drinks-container-box col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <div className="drinks-img">
-                <img src="./assets/drink2.jpeg" alt="ds" />
+                <img src="./assets/drink2.jpeg" alt="ds" loading="lazy" />
               </div>
               <div className="drinks-info">
                 <h3>
@@ -214,7 +214,7 @@ const Popular = () => {
           <div className="row">
             <div className="drinks-container-box col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <div className="drinks-img">
-                <img src="./assets/drink1.jpeg" alt="ds" />
+                <img src="./assets/drink1.jpeg" alt="ds" loading="lazy" />
               </div>
               <div className="drinks-info">
                 <h3>
@@ -225,7 +225,7 @@ const Popular = () => {
             </div>
             <div className="drinks-container-box col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <div className="drinks-img">
-                <img src="./assets/drink6.jpeg" alt="ds" />
+                <img src="./assets/drink6.jpeg" alt="ds" loading="lazy" />
               </div>
               <div className="drinks-info">
                 <h3>
@@ -238,7 +238,7 @@ const Popular = () => {
           <div className="row">
             <div className="drinks-container-box col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
               <div className="drinks-img">
-                <img src="./assets/drink5.jpeg" alt="ds" />
+                <img src="./assets/drink5.jpeg" alt="ds" loading="lazy" />
               </div>
               <div className="drinks-info">
                 <h3>
@@ -249,7 +249,7 @@ const Popular = () => {
             </div>
             <div className="drinks-container-box col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <div className="drinks-img">
-                <img src="./assets/drink4.jpeg" alt="ds" />
+                <img src="./assets/drink4.jpeg" alt="ds" loading="lazy" />
               </div>
               <div className="drinks-info">
                 <h3>
@@ -262,7 +262,7 @@ const Popular = () => {
           <div className="row">
             <div className="drinks-container-box col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <div className="drinks-img">
-                <img src="./assets/drink8.jpeg" alt="ds" />
+                <img src="./assets/drink8.jpeg" alt="ds" loading="lazy" />
               </div>
               <div className="drinks-info">
                 <h3>
@@ -273,7 +273,7 @@ const Popular = () => {
             </div>
             <div className="drinks-container-box col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <div className="drinks-img">
-                <img src="./assets/drink7.jpeg" alt="ds" />
+                <img src="./assets/drink7.jpeg" alt="ds" loading="lazy" />
               </div>
               <div className="drinks-info">
                 <h3>
